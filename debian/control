@@ -1,0 +1,49 @@
+Source: libnm-qt
+Priority: extra
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
+Build-Depends: cmake,
+               debhelper (>= 9.0.0),
+               extra-cmake-modules (>= 0.0.14),
+               libnm-glib-dev,
+               libnm-util-dev,
+               pkg-kde-tools,
+               qtbase5-dev
+Standards-Version: 3.9.5
+Section: libs
+Homepage: https://projects.kde.org/projects/kde/workspace/libnm-qt
+Vcs-Browser: https://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/libnm-qt
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/libnm-qt
+
+Package: libnm-qt-dev
+Section: libdevel
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: qt wrapper for networkmanager devel files.
+ Qt wrapper for NetworkManager DBus API.
+ .
+ This package is part of the KDE Plasma.
+ .
+ This package contains the development files
+
+Package: libnm-qt
+Section: utils
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends}
+Description: qt wrapper for networkmanager library.
+ Qt wrapper for NetworkManager DBus API.
+ .
+ This package is part of the KDE Plasma.
+
+Package: libnm-qt-dbg
+Section: debug
+Architecture: any
+Recommends: qtbase5-dbg
+Depends: libnm-qt (= ${binary:Version}), ${misc:Depends}
+Description: qt wrapper for networkmanager debug files.
+ Qt wrapper for NetworkManager DBus API.
+ .
+ This package is part of the KDE Plasma.
+ .
+ This package contains the debugging symbols.
