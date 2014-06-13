@@ -1,6 +1,8 @@
-libnm-qt (4:6122014git-0ubuntu1) UNRELEASED; urgency=medium
+libnm-qt (4:6132014git-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Initial release.
+  * Grab newest git from upstream.
+  * Add -dev depend
 
- -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Thu, 12 Jun 2014 10:24:08 +0100
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Fri, 13 Jun 2014 10:24:08 +0100

@@ -18,7 +18,8 @@ Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/libnm-q
 Package: libnm-qt-dev
 Section: libdevel
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: libnm-qt (= ${binary:Version}),
+ ${misc:Depends}, ${shlibs:Depends}
 Description: qt wrapper for networkmanager devel files.
  Qt wrapper for NetworkManager DBus API.
  .
