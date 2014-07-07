@@ -1,3 +1,10 @@
+libnm-qt (5.0.90-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+  * Upstream set on new version number
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 07 Jul 2014 14:39:50 +0200
+
 libnm-qt (0.9.9~git20140614-0ubuntu1) utopic; urgency=medium
 
   [ Scarlett Clark ]
