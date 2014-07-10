@@ -15,7 +15,7 @@ Homepage: https://projects.kde.org/projects/kde/workspace/libnm-qt
 Vcs-Browser: https://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/libnm-qt
 Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/libnm-qt
 
-Package: libnetworkmanagerqt5-dev
+Package: libnetworkmanagerqt-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5networkmanagerqt5 (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
