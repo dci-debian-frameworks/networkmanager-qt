@@ -7,7 +7,7 @@ Build-Depends: cmake,
                extra-cmake-modules (>= 1.0.0),
                libnm-glib-dev,
                libnm-util-dev,
-               pkg-kde-tools,
+               pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev
 Standards-Version: 3.9.5
 Section: libs
