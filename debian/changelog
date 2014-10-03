@@ -4,7 +4,8 @@ libnm-qt (5.0.95-0ubuntu1) UNRELEASED; urgency=medium
   * New upstream beta release
 
   [ Scarlett Clark ]
-  * Update copyright file to use GPL-KDEeV and LGPL-KDEeV to resolve lintian space error. 
+  * Update copyright file to use GPL-KDEeV and LGPL-KDEeV to resolve
+    lintian space error.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 01 Oct 2014 16:10:40 +0200
 
