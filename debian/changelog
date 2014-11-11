@@ -1,6 +1,7 @@
 libnm-qt (5.0.93-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
+  * Remove no-human-maintainers lintian-override per ScottK. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 18 Sep 2014 07:22:50 -0700
 
