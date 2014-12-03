@@ -18,7 +18,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/libnm-qt.git
 Package: libkf5networkmanagerqt-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5networkmanagerqt5 (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+Depends: libkf5networkmanagerqt6 (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
 Description: Qt wrapper for NetworkManager - devel files.
  Qt wrapper for NetworkManager DBus API.
  .
@@ -26,7 +26,7 @@ Description: Qt wrapper for NetworkManager - devel files.
  .
  This package contains the development files
 
-Package: libkf5networkmanagerqt5
+Package: libkf5networkmanagerqt6
 Architecture: any
 Depends: ${misc:Depends},
          ${shlibs:Depends}
@@ -35,11 +35,11 @@ Description: Qt wrapper for NetworkManager - library
  .
  This package is part of the KDE Plasma.
 
-Package: libkf5networkmanagerqt5-dbg
+Package: libkf5networkmanagerqt6-dbg
 Section: debug
 Architecture: any
 Recommends: qtbase5-dbg
-Depends: libkf5networkmanagerqt5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5networkmanagerqt6 (= ${binary:Version}), ${misc:Depends}
 Description: Qt wrapper for NetworkManager - debug files.
  Qt wrapper for NetworkManager DBus API.
  .
