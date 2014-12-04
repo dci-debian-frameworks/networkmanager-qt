@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.1+git20141203.0939+15.04 amd64 i386
+# SymbolsHelper-Confirmed: 5.1.1+git20141204.1035+15.04 amd64
 libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager10AdslDevice11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager10AdslDevice11qt_metacastEPKc@Base 5.1.1+git20141203.0020+15.04
@@ -206,7 +206,6 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager11Ipv6Setting12setDnsSearchERK11QStringList@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager11Ipv6Setting15setNeverDefaultEb@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager11Ipv6Setting16setIgnoreAutoDnsEb@Base 5.1.1+git20141203.0020+15.04
- _ZN14NetworkManager11Ipv6Setting16staticMetaObjectE@Base 5.1.1+git20141203.0939+15.04
  _ZN14NetworkManager11Ipv6Setting19setIgnoreAutoRoutesEb@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager11Ipv6Setting6setDnsERK5QListI12QHostAddressE@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager11Ipv6Setting7fromMapERK4QMapI7QString8QVariantE@Base 5.1.1+git20141203.0020+15.04
@@ -569,7 +568,6 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager18ConnectionSettings14setSecondariesERK11QStringList@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager18ConnectionSettings14typeFromStringERK7QString@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager18ConnectionSettings16addToPermissionsERK7QStringS3_@Base 5.1.1+git20141203.0020+15.04
- _ZN14NetworkManager18ConnectionSettings16staticMetaObjectE@Base 5.1.1+git20141203.0939+15.04
  _ZN14NetworkManager18ConnectionSettings17setConnectionTypeENS0_14ConnectionTypeE23NMBluetoothCapabilities@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager18ConnectionSettings5setIdERK7QString@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager18ConnectionSettings7fromMapERK4QMapI7QStringS1_IS2_8QVariantEE@Base 5.1.1+git20141203.0020+15.04
@@ -735,7 +733,6 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager7Setting14secretsFromMapERK4QMapI7QString8QVariantE@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager7Setting14setInitializedEb@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager7Setting14typeFromStringERK7QString@Base 5.1.1+git20141203.0020+15.04
- _ZN14NetworkManager7Setting16staticMetaObjectE@Base 5.1.1+git20141203.0939+15.04
  _ZN14NetworkManager7Setting20secretsFromStringMapERK4QMapI7QStringS2_E@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager7Setting7fromMapERK4QMapI7QString8QVariantE@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager7Setting7setTypeENS0_11SettingTypeE@Base 5.1.1+git20141203.0020+15.04
