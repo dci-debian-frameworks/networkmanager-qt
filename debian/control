@@ -7,10 +7,11 @@ Build-Depends: cmake,
                libnm-glib-dev,
                libnm-util-dev,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
+               pkg-config,
                qtbase5-dev
 Standards-Version: 3.9.5
 Section: libs
-Homepage: https://projects.kde.org/projects/kde/workspace/libnm-qt
+Homepage: https://projects.kde.org/projects/kde/frameworks/libnm-qt
 XS-Testsuite: autopkgtest
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/plasma/libnm-qt.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/libnm-qt.git
