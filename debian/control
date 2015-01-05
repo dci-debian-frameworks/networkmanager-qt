@@ -1,4 +1,4 @@
-Source: libnm-qt
+Source: networkmanager-qt
 Priority: extra
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Build-Depends: cmake,

@@ -1,8 +1,10 @@
-libnm-qt (5.1.2-0ubuntu1) UNRELEASED; urgency=medium
+networkmanager-qt (5.6.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
+  * Upstream renamed to networkmanager-qt and new version number
+    to release as part of Frameworks (instead of Plasma)
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 12 Dec 2014 14:38:43 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 05 Jan 2015 12:19:39 +0100
 
 libnm-qt (5.1.1-0ubuntu1) vivid; urgency=medium
 
