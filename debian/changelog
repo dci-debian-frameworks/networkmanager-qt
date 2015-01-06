@@ -1,4 +1,4 @@
-networkmanager-qt (5.6.0-0ubuntu1) UNRELEASED; urgency=medium
+networkmanager-qt (5.6.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
   * Upstream renamed to networkmanager-qt and new version number
