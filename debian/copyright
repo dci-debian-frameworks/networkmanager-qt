@@ -1,5 +1,5 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: libnm-qt
+Upstream-Name: networkmanager-qt
 Source: ftp://ftp.kde.org/pub/kde/stable/plasma/libnm-qt
 
 Files: *
