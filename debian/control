@@ -10,7 +10,7 @@ Build-Depends: cmake,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                pkg-config,
                qtbase5-dev
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Section: libs
 Homepage: https://projects.kde.org/projects/kde/frameworks/libnm-qt
 XS-Testsuite: autopkgtest
