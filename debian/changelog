@@ -1,3 +1,9 @@
+networkmanager-qt (5.6.0-0ubuntu2) vivid; urgency=medium
+
+  * Rebuild with network-manager 0.9.10.0 for new symbols
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 28 Jan 2015 13:32:56 +0100
+
 networkmanager-qt (5.6.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
