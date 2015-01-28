@@ -4,8 +4,8 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Build-Depends: cmake,
                debhelper (>= 9.0.0),
                extra-cmake-modules (>= 1.6.0),
-               libnm-glib-dev,
-               libnm-util-dev,
+               libnm-glib-dev (>= 0.9.10.0),
+               libnm-util-dev (>= 0.9.10.0),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                pkg-config,
                qtbase5-dev
