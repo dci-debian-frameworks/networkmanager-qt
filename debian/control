@@ -6,8 +6,8 @@ Build-Depends: cmake,
                extra-cmake-modules (>= 1.7.0),
                libnm-glib-dev,
                libnm-util-dev,
-               pkg-kde-tools (>= 0.15.15ubuntu1~),
                pkg-config,
+               pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev
 Standards-Version: 3.9.5
 Section: libs
@@ -19,7 +19,11 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/libnm-qt.git
 Package: libkf5networkmanagerqt-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5networkmanagerqt6 (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+Depends: libkf5networkmanagerqt6 (= ${binary:Version}),
+         libnm-glib-dev (>= 0.9.10.0),
+         libnm-util-dev (>= 0.9.10.0),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: Qt wrapper for NetworkManager - devel files.
  Qt wrapper for NetworkManager DBus API.
  .
@@ -29,8 +33,7 @@ Description: Qt wrapper for NetworkManager - devel files.
 
 Package: libkf5networkmanagerqt6
 Architecture: any
-Depends: ${misc:Depends},
-         ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: libkf5networkmanagerqt5 (<< 5.1.1+git20141204)
 Replaces: libkf5networkmanagerqt5 (<< 5.1.1+git20141204)
 Description: Qt wrapper for NetworkManager - library
