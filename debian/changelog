@@ -4,6 +4,12 @@ networkmanager-qt (5.7.0-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 24 Feb 2015 17:52:55 +0100
 
+networkmanager-qt (5.7.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Harald Sitter <sitter@kde.org>  Tue, 10 Feb 2015 16:37:04 +0100
+
 networkmanager-qt (5.6.0-1) experimental; urgency=medium
 
   * New upstream release (5.6.0)
@@ -16,3 +22,32 @@ networkmanager-qt (5.6.0-1) experimental; urgency=medium
   * Update symbols files.
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 24 Jan 2015 19:05:01 +0100
+
+networkmanager-qt (5.6.0-0ubuntu2) vivid; urgency=medium
+
+  * Rebuild with network-manager 0.9.10.0 for new symbols
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 28 Jan 2015 13:32:56 +0100
+
+networkmanager-qt (5.6.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+  * Upstream renamed to networkmanager-qt and new version number
+    to release as part of Frameworks (instead of Plasma)
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 05 Jan 2015 12:19:39 +0100
+
+libnm-qt (5.1.1-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release.
+  * Update copyright file to use GPL-KDEeV and LGPL-KDEeV to resolve
+    lintian space error.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 10 Nov 2014 19:49:54 +0100
+
+libnm-qt (5.0.93-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+  * Remove no-human-maintainers lintian-override per ScottK.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 18 Sep 2014 07:22:50 -0700
