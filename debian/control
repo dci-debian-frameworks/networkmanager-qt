@@ -3,7 +3,7 @@ Priority: extra
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Build-Depends: cmake,
                debhelper (>= 9.0.0),
-               extra-cmake-modules (>= 1.7.0),
+               extra-cmake-modules (>= 1.8.0),
                libnm-glib-dev (>= 0.9.10.0),
                libnm-util-dev (>= 0.9.10.0),
                pkg-config,
