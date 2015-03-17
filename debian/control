@@ -20,8 +20,8 @@ Package: libkf5networkmanagerqt-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5networkmanagerqt6 (= ${binary:Version}),
-         libnm-glib-dev (>= 0.9.10.0),
-         libnm-util-dev (>= 0.9.10.0),
+         libnm-glib-dev,
+         libnm-util-dev,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Qt wrapper for NetworkManager - devel files.
