@@ -1,3 +1,9 @@
+networkmanager-qt (5.9.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (5.9.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 17 Apr 2015 13:05:57 +0200
+
 networkmanager-qt (5.8.0-1) experimental; urgency=medium
 
   * New upstream release (5.8.0).
