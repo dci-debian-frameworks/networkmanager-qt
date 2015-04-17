@@ -4,11 +4,23 @@ networkmanager-qt (5.9.0-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 17 Apr 2015 13:05:57 +0200
 
+networkmanager-qt (5.9.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 13 Apr 2015 22:34:18 +0200
+
 networkmanager-qt (5.8.0-1) experimental; urgency=medium
 
   * New upstream release (5.8.0).
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 14 Mar 2015 22:27:04 +0100
+
+networkmanager-qt (5.8.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 17 Mar 2015 15:44:54 +0100
 
 networkmanager-qt (5.7.0-1) experimental; urgency=medium
 
