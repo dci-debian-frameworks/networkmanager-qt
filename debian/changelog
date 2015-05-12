@@ -1,6 +1,7 @@
 networkmanager-qt (5.10.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.10.0).
+  * Update symbols files.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 11 May 2015 13:03:49 +0200
 
