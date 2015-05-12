@@ -6,7 +6,7 @@ Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
                extra-cmake-modules (>= 5.10.0~),
-               libnm-glib-dev (>= 0.9.10.0),
+               libnm-dev (>= 0.9.10.0),
                libnm-util-dev (>= 0.9.10.0),
                network-manager-dev (>= 0.9.8.4),
                pkg-config,
