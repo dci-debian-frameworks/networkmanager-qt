@@ -1,27 +1,28 @@
 Source: networkmanager-qt
-Priority: extra
+Section: libs
+Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Build-Depends: cmake,
-               debhelper (>= 9.0.0),
-               extra-cmake-modules (>= 1.8.0),
-               libnm-glib-dev,
-               libnm-util-dev,
+Uploaders: Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake (>= 2.8.12),
+               debhelper (>= 9),
+               extra-cmake-modules (>= 5.10.0~),
+               libnm-dev (>= 0.9.10.0),
+               libnm-util-dev (>= 0.9.10.0),
+               network-manager-dev (>= 0.9.8.4),
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev
+               qtbase5-dev (>= 5.4)
 Standards-Version: 3.9.6
-Section: libs
-Homepage: https://projects.kde.org/projects/kde/frameworks/libnm-qt
-XS-Testsuite: autopkgtest
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/plasma/libnm-qt.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/libnm-qt.git
+Homepage: https://projects.kde.org/projects/frameworks/networkmanager-qt
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/frameworks/networkmanager-qt.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/networkmanager-qt.git
 
 Package: libkf5networkmanagerqt-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5networkmanagerqt6 (= ${binary:Version}),
-         libnm-glib-dev,
-         libnm-util-dev,
+         libnm-glib-dev (>= 0.9.10.0),
+         qtbase5-dev (>= 5.4),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Qt wrapper for NetworkManager - devel files.
@@ -43,9 +44,10 @@ Description: Qt wrapper for NetworkManager - library
 
 Package: libkf5networkmanagerqt6-dbg
 Section: debug
+Priority: extra
 Architecture: any
-Recommends: qtbase5-dbg
 Depends: libkf5networkmanagerqt6 (= ${binary:Version}), ${misc:Depends}
+Recommends: qtbase5-dbg
 Description: Qt wrapper for NetworkManager - debug files.
  Qt wrapper for NetworkManager DBus API.
  .
