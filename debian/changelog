@@ -1,4 +1,10 @@
-networkmanager-qt (5.10.0-0ubuntu1) UNRELEASED; urgency=medium
+networkmanager-qt (5.10.0-0ubuntu2) wily; urgency=medium
+
+  * Merge in symbols change
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 05 Jun 2015 00:48:46 +0200
+
+networkmanager-qt (5.10.0-0ubuntu1) wily; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.10.0).
