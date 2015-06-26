@@ -15,6 +15,7 @@
 
 <gcc_options>
     -fPIC
+    -DQT_NO_SIGNALS_SLOTS_KEYWORDS
 </gcc_options>
 
 </descriptor>
