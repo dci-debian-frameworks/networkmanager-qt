@@ -21,7 +21,7 @@ Package: libkf5networkmanagerqt-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5networkmanagerqt6 (= ${binary:Version}),
-         libnm-glib-dev (>= 0.9.10.0),
+         libnm-dev (>= 0.9.10.0),
          qtbase5-dev (>= 5.4),
          ${misc:Depends},
          ${shlibs:Depends}
