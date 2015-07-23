@@ -7,6 +7,9 @@ networkmanager-qt (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
   * Update symbols file: mark as optional the symbols gone after
     building with GCC 5
 
+  [ Scarlett Clark ]
+  * Vivid backport. 
+
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Jul 2015 08:30:25 -0700
 
 networkmanager-qt (5.11.0-1) unstable; urgency=medium
