@@ -1,8 +1,8 @@
-networkmanager-qt (5.13.0-0ubuntu1) UNRELEASED; urgency=medium
+networkmanager-qt (5.13.0-0ubuntu1) wily; urgency=medium
 
   * new upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Aug 2015 16:16:59 +0200
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 10 Aug 2015 13:35:49 +0200
 
 networkmanager-qt (5.12.0-0ubuntu1) wily; urgency=medium
 
