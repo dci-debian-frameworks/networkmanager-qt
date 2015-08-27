@@ -1,3 +1,9 @@
+networkmanager-qt (5.13.0-0ubuntu2) wily; urgency=medium
+
+  * No change rebuild to pick up new libnm include directory
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 27 Aug 2015 17:24:37 +0100
+
 networkmanager-qt (5.13.0-0ubuntu1) wily; urgency=medium
 
   * new upstream release
