@@ -1,3 +1,9 @@
+networkmanager-qt (5.13.0-0ubuntu4) wily; urgency=medium
+
+  * Merge with debian to remove libnm-glib-dev
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 01 Sep 2015 14:32:00 +0100
+
 networkmanager-qt (5.13.0-0ubuntu3) wily; urgency=medium
 
   * No change rebuild to pick up new libnm on arm64
@@ -29,6 +35,20 @@ networkmanager-qt (5.12.0-0ubuntu1) wily; urgency=medium
   * Vivid backport. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 03 Aug 2015 16:11:57 +0200
+
+networkmanager-qt (5.13.0-1) unstable; urgency=medium
+
+  * New upstream release (5.13.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 13 Aug 2015 13:51:26 +0200
+
+networkmanager-qt (5.12.0-1) unstable; urgency=medium
+
+  * New upstream release (5.12.0).
+  * Update symbols files for gcc5 compatibility. (Closes: #791733)
+    Thanks to Martin Michlmayr
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 09 Jul 2015 12:43:46 +0200
 
 networkmanager-qt (5.11.0-1) unstable; urgency=medium
 
