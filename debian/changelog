@@ -1,3 +1,9 @@
+networkmanager-qt (5.13.0-0ubuntu3) wily; urgency=medium
+
+  * No change rebuild to pick up new libnm on arm64
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 01 Sep 2015 10:37:30 +0100
+
 networkmanager-qt (5.13.0-0ubuntu2) wily; urgency=medium
 
   * No change rebuild to pick up new libnm include directory
