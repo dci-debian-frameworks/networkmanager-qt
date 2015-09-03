@@ -1,3 +1,10 @@
+networkmanager-qt (5.13.0-0ubuntu5) wily; urgency=medium
+
+  * Merge debian master branch to pick up a change to the autopkgtest that
+    puts logs in the artifacts directory for archiving.
+
+ -- Harald Sitter <sitter@kde.org>  Thu, 03 Sep 2015 12:43:40 +0200
+
 networkmanager-qt (5.13.0-0ubuntu4) wily; urgency=medium
 
   * Merge with debian to remove libnm-glib-dev
