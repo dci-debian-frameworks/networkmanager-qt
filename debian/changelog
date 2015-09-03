@@ -1,7 +1,9 @@
-networkmanager-qt (5.13.0-0ubuntu6) UNRELEASED; urgency=medium
+networkmanager-qt (5.13.0-0ubuntu6) wily; urgency=medium
 
   * Merge debian master branch to make sure acc logs are artifacted with a
     name that makes clear the logs are from acc
+  * Reintroduce libnm-dev as dependency of the -dev package. This should fix
+    the ACC test as all needed headers are present again.
 
  -- Harald Sitter <sitter@kde.org>  Thu, 03 Sep 2015 12:58:52 +0200
 
