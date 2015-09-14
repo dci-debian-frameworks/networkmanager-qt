@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.10.0 amd64
+# SymbolsHelper-Confirmed: 5.14.0 amd64
 libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager10AdslDevice11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager10AdslDevice11qt_metacastEPKc@Base 5.1.1+git20141203.0020+15.04
@@ -136,6 +136,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager11AccessPoint11qt_metacastEPKc@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager11AccessPoint11ssidChangedERK7QString@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager11AccessPoint14bitRateChangedEi@Base 5.1.1+git20141203.0020+15.04
+ _ZN14NetworkManager11AccessPoint15lastSeenChangedEi@Base 5.14.0
  _ZN14NetworkManager11AccessPoint15rsnFlagsChangedE6QFlagsINS0_7WpaFlagEE@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager11AccessPoint15wpaFlagsChangedE6QFlagsINS0_7WpaFlagEE@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager11AccessPoint16frequencyChangedEj@Base 5.1.1+git20141203.0020+15.04
@@ -594,9 +595,9 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager16SettingsNotifier16canModifyChangedEb@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager16SettingsNotifier16staticMetaObjectE@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager16SettingsNotifier17connectionRemovedERK7QString@Base 5.1.1+git20141203.0020+15.04
- (optional=gccinternal)_ZN14NetworkManager16SettingsNotifierD0Ev@Base 5.1.1+git20141203.0020+15.04
- (optional=gccinternal)_ZN14NetworkManager16SettingsNotifierD1Ev@Base 5.1.1+git20141203.0020+15.04
- (optional=gccinternal)_ZN14NetworkManager16SettingsNotifierD2Ev@Base 5.1.1+git20141203.0020+15.04
+ (optional=gccinternal|arch=!amd64)_ZN14NetworkManager16SettingsNotifierD0Ev@Base 5.1.1+git20141203.0020+15.04
+ (optional=gccinternal|arch=!amd64)_ZN14NetworkManager16SettingsNotifierD1Ev@Base 5.1.1+git20141203.0020+15.04
+ (optional=gccinternal|arch=!amd64)_ZN14NetworkManager16SettingsNotifierD2Ev@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager16settingsNotifierEv@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager17BridgePortSetting11setPathCostEj@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager17BridgePortSetting11setPriorityEj@Base 5.1.1+git20141203.0020+15.04
@@ -768,6 +769,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager6Device12stateChangedENS0_5StateES1_NS0_17StateChangeReasonE@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager6Device13driverChangedEv@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager6Device14managedChangedEv@Base 5.1.1+git20141203.0020+15.04
+ _ZN14NetworkManager6Device14meteredChangedENS0_13MeteredStatusE@Base 5.14.0
  _ZN14NetworkManager6Device14setAutoconnectEb@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager6Device15deleteInterfaceEv@Base 5.10.0
  _ZN14NetworkManager6Device16staticMetaObjectE@Base 5.1.1+git20141203.0020+15.04
@@ -822,6 +824,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager7SettingD0Ev@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager7SettingD1Ev@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager7SettingD2Ev@Base 5.1.1+git20141203.0020+15.04
+ _ZN14NetworkManager7meteredEv@Base 5.14.0
  _ZN14NetworkManager7versionEv@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager8IpConfig11setIPv4PathERK7QString@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager8IpConfig11setIPv6PathERK7QString@Base 5.1.1+git20141203.0020+15.04
@@ -839,6 +842,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager8Notifier11qt_metacastEPKc@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager8Notifier13deviceRemovedERK7QString@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager8Notifier13statusChangedENS_6StatusE@Base 5.1.1+git20141203.0020+15.04
+ _ZN14NetworkManager8Notifier14meteredChangedENS_6Device13MeteredStatusE@Base 5.14.0
  _ZN14NetworkManager8Notifier15serviceAppearedEv@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager8Notifier16staticMetaObjectE@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager8Notifier18serviceDisappearedEv@Base 5.1.1+git20141203.0020+15.04
@@ -857,9 +861,9 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager8Notifier27wimaxHardwareEnabledChangedEb@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager8Notifier28primaryConnectionTypeChangedENS_18ConnectionSettings14ConnectionTypeE@Base 5.10.0
  _ZN14NetworkManager8Notifier30wirelessHardwareEnabledChangedEb@Base 5.1.1+git20141203.0020+15.04
- (optional=gccinternal)_ZN14NetworkManager8NotifierD0Ev@Base 5.1.1+git20141203.0020+15.04
- (optional=gccinternal)_ZN14NetworkManager8NotifierD1Ev@Base 5.1.1+git20141203.0020+15.04
- (optional=gccinternal)_ZN14NetworkManager8NotifierD2Ev@Base 5.1.1+git20141203.0020+15.04
+ (optional=gccinternal|arch=!amd64)_ZN14NetworkManager8NotifierD0Ev@Base 5.1.1+git20141203.0020+15.04
+ (optional=gccinternal|arch=!amd64)_ZN14NetworkManager8NotifierD1Ev@Base 5.1.1+git20141203.0020+15.04
+ (optional=gccinternal|arch=!amd64)_ZN14NetworkManager8NotifierD2Ev@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager8WimaxNsp11nameChangedERK7QString@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager8WimaxNsp11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager8WimaxNsp11qt_metacastEPKc@Base 5.1.1+git20141203.0020+15.04
@@ -1043,6 +1047,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZNK14NetworkManager11AccessPoint4modeEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager11AccessPoint4ssidEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager11AccessPoint7rawSsidEv@Base 5.1.1+git20141203.0020+15.04
+ _ZNK14NetworkManager11AccessPoint8lastSeenEv@Base 5.14.0
  _ZNK14NetworkManager11AccessPoint8rsnFlagsEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager11AccessPoint8wpaFlagsEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager11AccessPoint9frequencyEv@Base 5.1.1+git20141203.0020+15.04
@@ -1389,6 +1394,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZNK14NetworkManager6Device6driverEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager6Device7isValidEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager6Device7managedEv@Base 5.1.1+git20141203.0020+15.04
+ _ZNK14NetworkManager6Device7meteredEv@Base 5.14.0
  _ZNK14NetworkManager6Device8isActiveEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager7IpRoute10setNextHopERK12QHostAddress@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager7IpRoute6metricEv@Base 5.1.1+git20141203.0020+15.04
