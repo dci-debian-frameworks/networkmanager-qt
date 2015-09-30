@@ -1,7 +1,11 @@
 networkmanager-qt (5.14.0-0ubuntu2) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * Build-dep and depend from libkf5networkmanagerqt-dev on alternate
     libnm-glib-dev for vivid builds for mobile kci
+
+  [ Scarlett Clark ]
+  * Vivid backport.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 21 Sep 2015 16:12:34 +0100
 
