@@ -1,4 +1,4 @@
-networkmanager-qt (5.15.0-0ubuntu1) UNRELEASED; urgency=medium
+networkmanager-qt (5.15.0-0ubuntu1) wily; urgency=medium
 
   [ Jonathan Riddell ]
   * Build-dep and depend from libkf5networkmanagerqt-dev on alternate
@@ -11,7 +11,7 @@ networkmanager-qt (5.15.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Jonathan Riddell ]
   * new upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 05 Oct 2015 21:04:29 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 07 Oct 2015 13:59:31 +0100
 
 networkmanager-qt (5.14.0-0ubuntu1) wily; urgency=medium
 
