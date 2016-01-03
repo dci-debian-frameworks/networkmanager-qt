@@ -1,7 +1,11 @@
 networkmanager-qt (5.17.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * Debian merge. No remaining changes. 
   * New upstream release Xenial
+
+  [ Bhushan Shah ]
+  * Build-dep to alternate libnm-glib-dev for vivid builds
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 14 Dec 2015 02:37:47 +0000
 
