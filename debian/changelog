@@ -1,4 +1,4 @@
-networkmanager-qt (5.17.0-0ubuntu1) UNRELEASED; urgency=medium
+networkmanager-qt (4:5.18.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Debian merge. No remaining changes. 
@@ -7,7 +7,10 @@ networkmanager-qt (5.17.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Bhushan Shah ]
   * Build-dep to alternate libnm-glib-dev for vivid builds
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 14 Dec 2015 02:37:47 +0000
+  [ Philip Muškovac ]
+  * New upstream release
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Wed, 06 Jan 2016 15:10:18 +0100
 
 networkmanager-qt (5.16.0-1) unstable; urgency=medium
 
