@@ -41,16 +41,3 @@ Description: Qt wrapper for NetworkManager - library
  Qt wrapper for NetworkManager DBus API.
  .
  This package is part of the KDE Plasma.
-
-Package: libkf5networkmanagerqt6-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Depends: libkf5networkmanagerqt6 (= ${binary:Version}), ${misc:Depends}
-Recommends: qtbase5-dbg
-Description: Qt wrapper for NetworkManager - debug files.
- Qt wrapper for NetworkManager DBus API.
- .
- This package is part of the KDE Plasma.
- .
- This package contains the debugging symbols.
