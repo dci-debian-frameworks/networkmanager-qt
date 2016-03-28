@@ -1,13 +1,14 @@
-networkmanager-qt (5.20.0-1~1.gbp07a6d2) UNRELEASED; urgency=medium
+networkmanager-qt (5.20.0-1~2.gbp83eef7) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @07a6d29ce2048828b10928ddb9f17b328188aa5c **
+  ** SNAPSHOT build @83eef7404440399244c051746b7635a8c0c78e0f **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * UNRELEASED
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 23 Mar 2016 22:39:31 +0100
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Mon, 28 Mar 2016 15:00:20 +0200
 
 networkmanager-qt (5.19.0-1) experimental; urgency=medium
 
