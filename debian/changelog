@@ -1,6 +1,6 @@
-networkmanager-qt (5.20.0-1~4.gbpb6c3a6) UNRELEASED; urgency=medium
+networkmanager-qt (5.20.0-1~5.gbp180adc) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @b6c3a61852fe65694836dd3cc616587259bb3d77 **
+  ** SNAPSHOT build @180adcee2713537b5532a5a0f6eed3f3c8bbcc3f **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
@@ -9,8 +9,9 @@ networkmanager-qt (5.20.0-1~4.gbpb6c3a6) UNRELEASED; urgency=medium
   * UNRELEASED
   * UNRELEASED
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 29 Mar 2016 00:46:11 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 29 Mar 2016 06:45:59 +0200
 
 networkmanager-qt (5.19.0-1) experimental; urgency=medium
 
