@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.14.0 alpha amd64 arm64 armel armhf hppa i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x x32
+# SymbolsHelper-Confirmed: 5.21.0 amd64 armhf i386
 libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager10AdslDevice11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager10AdslDevice11qt_metacastEPKc@Base 5.1.1+git20141203.0020+15.04
@@ -95,6 +95,20 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager10TeamDeviceD0Ev@Base 5.6.0
  _ZN14NetworkManager10TeamDeviceD1Ev@Base 5.6.0
  _ZN14NetworkManager10TeamDeviceD2Ev@Base 5.6.0
+ _ZN14NetworkManager10TunSetting10setVnetHdrEb@Base 5.21.0
+ _ZN14NetworkManager10TunSetting13setMultiQueueEb@Base 5.21.0
+ _ZN14NetworkManager10TunSetting5setPiEb@Base 5.21.0
+ _ZN14NetworkManager10TunSetting7fromMapERK4QMapI7QString8QVariantE@Base 5.21.0
+ _ZN14NetworkManager10TunSetting7setModeENS0_4ModeE@Base 5.21.0
+ _ZN14NetworkManager10TunSetting8setGroupERK7QString@Base 5.21.0
+ _ZN14NetworkManager10TunSetting8setOwnerERK7QString@Base 5.21.0
+ _ZN14NetworkManager10TunSettingC1ERK14QSharedPointerIS0_E@Base 5.21.0
+ _ZN14NetworkManager10TunSettingC1Ev@Base 5.21.0
+ _ZN14NetworkManager10TunSettingC2ERK14QSharedPointerIS0_E@Base 5.21.0
+ _ZN14NetworkManager10TunSettingC2Ev@Base 5.21.0
+ _ZN14NetworkManager10TunSettingD0Ev@Base 5.21.0
+ _ZN14NetworkManager10TunSettingD1Ev@Base 5.21.0
+ _ZN14NetworkManager10TunSettingD2Ev@Base 5.21.0
  _ZN14NetworkManager10VethDevice11peerChangedERK7QString@Base 5.6.0
  _ZN14NetworkManager10VethDevice11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.6.0
  _ZN14NetworkManager10VethDevice11qt_metacastEPKc@Base 5.6.0
@@ -938,6 +952,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager9getBFreqsEv@Base 5.1.1+git20141212
  _ZN14NetworkManagerlsE6QDebugRKNS_10GsmSettingE@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManagerlsE6QDebugRKNS_10PppSettingE@Base 5.1.1+git20141203.0020+15.04
+ _ZN14NetworkManagerlsE6QDebugRKNS_10TunSettingE@Base 5.21.0
  _ZN14NetworkManagerlsE6QDebugRKNS_10VpnSettingE@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManagerlsE6QDebugRKNS_11AdslSettingE@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManagerlsE6QDebugRKNS_11BondSettingE@Base 5.1.1+git20141203.0020+15.04
@@ -1015,6 +1030,14 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZNK14NetworkManager10TeamDevice6slavesEv@Base 5.6.0
  _ZNK14NetworkManager10TeamDevice7carrierEv@Base 5.6.0
  _ZNK14NetworkManager10TeamDevice9hwAddressEv@Base 5.6.0
+ _ZNK14NetworkManager10TunSetting10multiQueueEv@Base 5.21.0
+ _ZNK14NetworkManager10TunSetting2piEv@Base 5.21.0
+ _ZNK14NetworkManager10TunSetting4modeEv@Base 5.21.0
+ _ZNK14NetworkManager10TunSetting4nameEv@Base 5.21.0
+ _ZNK14NetworkManager10TunSetting5groupEv@Base 5.21.0
+ _ZNK14NetworkManager10TunSetting5ownerEv@Base 5.21.0
+ _ZNK14NetworkManager10TunSetting5toMapEv@Base 5.21.0
+ _ZNK14NetworkManager10TunSetting7vnetHdrEv@Base 5.21.0
  _ZNK14NetworkManager10VethDevice10metaObjectEv@Base 5.6.0
  _ZNK14NetworkManager10VethDevice4peerEv@Base 5.6.0
  _ZNK14NetworkManager10VethDevice4typeEv@Base 5.6.0
@@ -1444,6 +1467,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZTIN14NetworkManager10GsmSettingE@Base 5.1.1+git20141203.0020+15.04
  _ZTIN14NetworkManager10PppSettingE@Base 5.1.1+git20141203.0020+15.04
  _ZTIN14NetworkManager10TeamDeviceE@Base 5.6.0
+ _ZTIN14NetworkManager10TunSettingE@Base 5.21.0
  _ZTIN14NetworkManager10VethDeviceE@Base 5.6.0
  _ZTIN14NetworkManager10VlanDeviceE@Base 5.1.1+git20141203.0020+15.04
  _ZTIN14NetworkManager10VpnSettingE@Base 5.1.1+git20141203.0020+15.04
@@ -1500,6 +1524,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZTSN14NetworkManager10GsmSettingE@Base 5.1.1+git20141203.0020+15.04
  _ZTSN14NetworkManager10PppSettingE@Base 5.1.1+git20141203.0020+15.04
  _ZTSN14NetworkManager10TeamDeviceE@Base 5.6.0
+ _ZTSN14NetworkManager10TunSettingE@Base 5.21.0
  _ZTSN14NetworkManager10VethDeviceE@Base 5.6.0
  _ZTSN14NetworkManager10VlanDeviceE@Base 5.1.1+git20141203.0020+15.04
  _ZTSN14NetworkManager10VpnSettingE@Base 5.1.1+git20141203.0020+15.04
@@ -1555,6 +1580,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZTVN14NetworkManager10GsmSettingE@Base 5.1.1+git20141203.0020+15.04
  _ZTVN14NetworkManager10PppSettingE@Base 5.1.1+git20141203.0020+15.04
  _ZTVN14NetworkManager10TeamDeviceE@Base 5.6.0
+ _ZTVN14NetworkManager10TunSettingE@Base 5.21.0
  _ZTVN14NetworkManager10VethDeviceE@Base 5.6.0
  _ZTVN14NetworkManager10VlanDeviceE@Base 5.1.1+git20141203.0020+15.04
  _ZTVN14NetworkManager10VpnSettingE@Base 5.1.1+git20141203.0020+15.04
