@@ -2,8 +2,8 @@ networkmanager-qt (5.21.0-1~2.gbpd25e2a) UNRELEASED; urgency=medium
 
   ** SNAPSHOT build @d25e2a4defc8b2a097f4ca5213147db6e4c402c5 **
 
-
   [ Automatic packaging ]
+  * New upstream release (5.21.0). (Closes: #822429)
   * Update build-deps and deps with the info from cmake
   * Update symbols files.
 
