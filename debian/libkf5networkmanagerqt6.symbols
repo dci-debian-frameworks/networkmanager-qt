@@ -301,24 +301,24 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager11VlanSettingD0Ev@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager11VlanSettingD1Ev@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager11VlanSettingD2Ev@Base 5.1.1+git20141203.0020+15.04
- _ZN14NetworkManager11WimaxDevice11bsidChangedERK7QString@Base 5.1.1+git20141203.0020+15.04
- _ZN14NetworkManager11WimaxDevice11cinrChangedEi@Base 5.1.1+git20141203.0020+15.04
- _ZN14NetworkManager11WimaxDevice11nspAppearedERK7QString@Base 5.1.1+git20141203.0020+15.04
- _ZN14NetworkManager11WimaxDevice11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1+git20141203.0020+15.04
- _ZN14NetworkManager11WimaxDevice11qt_metacastEPKc@Base 5.1.1+git20141203.0020+15.04
- _ZN14NetworkManager11WimaxDevice11rssiChangedEi@Base 5.1.1+git20141203.0020+15.04
- _ZN14NetworkManager11WimaxDevice14bitRateChangedEi@Base 5.1.1+git20141203.0020+15.04
- _ZN14NetworkManager11WimaxDevice14nspDisappearedERK7QString@Base 5.1.1+git20141203.0020+15.04
- _ZN14NetworkManager11WimaxDevice14txPowerChangedEi@Base 5.1.1+git20141203.0020+15.04
- _ZN14NetworkManager11WimaxDevice16activeNspChangedERK7QString@Base 5.1.1+git20141203.0020+15.04
- _ZN14NetworkManager11WimaxDevice16staticMetaObjectE@Base 5.1.1+git20141203.0020+15.04
- _ZN14NetworkManager11WimaxDevice22centerFrequencyChangedEj@Base 5.1.1+git20141203.0020+15.04
- _ZN14NetworkManager11WimaxDevice22hardwareAddressChangedERK7QString@Base 5.1.1+git20141203.0020+15.04
- _ZN14NetworkManager11WimaxDeviceC1ERK7QStringP7QObject@Base 5.1.1+git20141203.0020+15.04
- _ZN14NetworkManager11WimaxDeviceC2ERK7QStringP7QObject@Base 5.1.1+git20141203.0020+15.04
- _ZN14NetworkManager11WimaxDeviceD0Ev@Base 5.1.1+git20141203.0020+15.04
- _ZN14NetworkManager11WimaxDeviceD1Ev@Base 5.1.1+git20141203.0020+15.04
- _ZN14NetworkManager11WimaxDeviceD2Ev@Base 5.1.1+git20141203.0020+15.04
+ (arch=!amd64)_ZN14NetworkManager11WimaxDevice11bsidChangedERK7QString@Base 5.21.0
+ (arch=!amd64)_ZN14NetworkManager11WimaxDevice11cinrChangedEi@Base 5.21.0
+ (arch=!amd64)_ZN14NetworkManager11WimaxDevice11nspAppearedERK7QString@Base 5.21.0
+ (arch=!amd64)_ZN14NetworkManager11WimaxDevice11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.21.0
+ (arch=!amd64)_ZN14NetworkManager11WimaxDevice11qt_metacastEPKc@Base 5.21.0
+ (arch=!amd64)_ZN14NetworkManager11WimaxDevice11rssiChangedEi@Base 5.21.0
+ (arch=!amd64)_ZN14NetworkManager11WimaxDevice14bitRateChangedEi@Base 5.21.0
+ (arch=!amd64)_ZN14NetworkManager11WimaxDevice14nspDisappearedERK7QString@Base 5.21.0
+ (arch=!amd64)_ZN14NetworkManager11WimaxDevice14txPowerChangedEi@Base 5.21.0
+ (arch=!amd64)_ZN14NetworkManager11WimaxDevice16activeNspChangedERK7QString@Base 5.21.0
+ (arch=!amd64)_ZN14NetworkManager11WimaxDevice16staticMetaObjectE@Base 5.21.0
+ (arch=!amd64)_ZN14NetworkManager11WimaxDevice22centerFrequencyChangedEj@Base 5.21.0
+ (arch=!amd64)_ZN14NetworkManager11WimaxDevice22hardwareAddressChangedERK7QString@Base 5.21.0
+ (arch=!amd64)_ZN14NetworkManager11WimaxDeviceC1ERK7QStringP7QObject@Base 5.21.0
+ (arch=!amd64)_ZN14NetworkManager11WimaxDeviceC2ERK7QStringP7QObject@Base 5.21.0
+ (arch=!amd64)_ZN14NetworkManager11WimaxDeviceD0Ev@Base 5.21.0
+ (arch=!amd64)_ZN14NetworkManager11WimaxDeviceD1Ev@Base 5.21.0
+ (arch=!amd64)_ZN14NetworkManager11WimaxDeviceD2Ev@Base 5.21.0
  _ZN14NetworkManager11WiredDevice11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager11WiredDevice11qt_metacastEPKc@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager11WiredDevice14bitRateChangedEi@Base 5.1.1+git20141203.0020+15.04
@@ -498,7 +498,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager14compareVersionERK7QString@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager14compareVersionEiii@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager14findConnectionERK7QString@Base 5.1.1+git20141203.0020+15.04
- _ZN14NetworkManager14isWimaxEnabledEv@Base 5.1.1+git20141203.0020+15.04
+ (arch=!amd64)_ZN14NetworkManager14isWimaxEnabledEv@Base 5.21.0
  _ZN14NetworkManager14setWwanEnabledEb@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager15BluetoothDevice11nameChangedERK7QString@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager15BluetoothDevice11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1+git20141203.0020+15.04
@@ -556,7 +556,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager15listConnectionsEv@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager15loadConnectionsERK11QStringList@Base 5.6.0
  _ZN14NetworkManager15securityIsValidENS_20WirelessSecurityTypeE6QFlagsINS_14WirelessDevice10CapabilityEEbbS1_INS_11AccessPoint10CapabilityEES1_INS5_7WpaFlagEES9_@Base 5.1.1+git20141212
- _ZN14NetworkManager15setWimaxEnabledEb@Base 5.1.1+git20141203.0020+15.04
+ (arch=!amd64)_ZN14NetworkManager15setWimaxEnabledEb@Base 5.21.0
  _ZN14NetworkManager16ActiveConnection10vpnChangedEb@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager16ActiveConnection11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager16ActiveConnection11qt_metacastEPKc@Base 5.1.1+git20141203.0020+15.04
@@ -737,7 +737,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager21isWwanHardwareEnabledEv@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager21primaryConnectionTypeEv@Base 5.10.0
  _ZN14NetworkManager22activeConnectionsPathsEv@Base 5.1.1+git20141203.0020+15.04
- _ZN14NetworkManager22isWimaxHardwareEnabledEv@Base 5.1.1+git20141203.0020+15.04
+ (arch=!amd64)_ZN14NetworkManager22isWimaxHardwareEnabledEv@Base 5.21.0
  _ZN14NetworkManager23WirelessSecuritySetting10setAuthAlgENS0_7AuthAlgE@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager23WirelessSecuritySetting10setKeyMgmtENS0_7KeyMgmtE@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager23WirelessSecuritySetting10setWepKey0E7QString@Base 5.1.1+git20141203.0020+15.04
@@ -801,6 +801,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager6Device22connectionStateChangedEv@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager6Device22firmwareMissingChangedEv@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager6Device22firmwareVersionChangedEv@Base 5.1.1+git20141203.0020+15.04
+ (arch=amd64)_ZN14NetworkManager6Device22nmPluginMissingChangedEb@Base 5.21.0
  _ZN14NetworkManager6Device23activeConnectionChangedEv@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager6Device26availableConnectionChangedEv@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager6Device27availableConnectionAppearedERK7QString@Base 5.1.1+git20141203.0020+15.04
@@ -860,7 +861,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager8Notifier18wwanEnabledChangedEb@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager8Notifier19connectivityChangedENS_12ConnectivityE@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager8Notifier19isStartingUpChangedEv@Base 5.6.0
- _ZN14NetworkManager8Notifier19wimaxEnabledChangedEb@Base 5.1.1+git20141203.0020+15.04
+ (arch=!amd64)_ZN14NetworkManager8Notifier19wimaxEnabledChangedEb@Base 5.21.0
  _ZN14NetworkManager8Notifier21activeConnectionAddedERK7QString@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager8Notifier22wirelessEnabledChangedEb@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager8Notifier23activeConnectionRemovedERK7QString@Base 5.1.1+git20141203.0020+15.04
@@ -869,20 +870,20 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager8Notifier24primaryConnectionChangedERK7QString@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager8Notifier26wwanHardwareEnabledChangedEb@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager8Notifier27activatingConnectionChangedERK7QString@Base 5.1.1+git20141203.0020+15.04
- _ZN14NetworkManager8Notifier27wimaxHardwareEnabledChangedEb@Base 5.1.1+git20141203.0020+15.04
+ (arch=!amd64)_ZN14NetworkManager8Notifier27wimaxHardwareEnabledChangedEb@Base 5.21.0
  _ZN14NetworkManager8Notifier28primaryConnectionTypeChangedENS_18ConnectionSettings14ConnectionTypeE@Base 5.10.0
  _ZN14NetworkManager8Notifier30wirelessHardwareEnabledChangedEb@Base 5.1.1+git20141203.0020+15.04
- _ZN14NetworkManager8WimaxNsp11nameChangedERK7QString@Base 5.1.1+git20141203.0020+15.04
- _ZN14NetworkManager8WimaxNsp11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1+git20141203.0020+15.04
- _ZN14NetworkManager8WimaxNsp11qt_metacastEPKc@Base 5.1.1+git20141203.0020+15.04
- _ZN14NetworkManager8WimaxNsp16staticMetaObjectE@Base 5.1.1+git20141203.0020+15.04
- _ZN14NetworkManager8WimaxNsp18networkTypeChangedENS0_11NetworkTypeE@Base 5.1.1+git20141203.0020+15.04
- _ZN14NetworkManager8WimaxNsp20signalQualityChangedEj@Base 5.1.1+git20141203.0020+15.04
- _ZN14NetworkManager8WimaxNspC1ERK7QStringP7QObject@Base 5.1.1+git20141203.0020+15.04
- _ZN14NetworkManager8WimaxNspC2ERK7QStringP7QObject@Base 5.1.1+git20141203.0020+15.04
- _ZN14NetworkManager8WimaxNspD0Ev@Base 5.1.1+git20141203.0020+15.04
- _ZN14NetworkManager8WimaxNspD1Ev@Base 5.1.1+git20141203.0020+15.04
- _ZN14NetworkManager8WimaxNspD2Ev@Base 5.1.1+git20141203.0020+15.04
+ (arch=!amd64)_ZN14NetworkManager8WimaxNsp11nameChangedERK7QString@Base 5.21.0
+ (arch=!amd64)_ZN14NetworkManager8WimaxNsp11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.21.0
+ (arch=!amd64)_ZN14NetworkManager8WimaxNsp11qt_metacastEPKc@Base 5.21.0
+ (arch=!amd64)_ZN14NetworkManager8WimaxNsp16staticMetaObjectE@Base 5.21.0
+ (arch=!amd64)_ZN14NetworkManager8WimaxNsp18networkTypeChangedENS0_11NetworkTypeE@Base 5.21.0
+ (arch=!amd64)_ZN14NetworkManager8WimaxNsp20signalQualityChangedEj@Base 5.21.0
+ (arch=!amd64)_ZN14NetworkManager8WimaxNspC1ERK7QStringP7QObject@Base 5.21.0
+ (arch=!amd64)_ZN14NetworkManager8WimaxNspC2ERK7QStringP7QObject@Base 5.21.0
+ (arch=!amd64)_ZN14NetworkManager8WimaxNspD0Ev@Base 5.21.0
+ (arch=!amd64)_ZN14NetworkManager8WimaxNspD1Ev@Base 5.21.0
+ (arch=!amd64)_ZN14NetworkManager8WimaxNspD2Ev@Base 5.21.0
  _ZN14NetworkManager8hostnameEv@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager8notifierEv@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager9GreDevice10tosChangedEh@Base 5.6.0
@@ -1142,17 +1143,17 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZNK14NetworkManager11VlanSetting5flagsEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager11VlanSetting5toMapEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager11VlanSetting6parentEv@Base 5.1.1+git20141203.0020+15.04
- _ZNK14NetworkManager11WimaxDevice10metaObjectEv@Base 5.1.1+git20141203.0020+15.04
- _ZNK14NetworkManager11WimaxDevice15centerFrequencyEv@Base 5.1.1+git20141203.0020+15.04
- _ZNK14NetworkManager11WimaxDevice15hardwareAddressEv@Base 5.1.1+git20141203.0020+15.04
- _ZNK14NetworkManager11WimaxDevice4bsidEv@Base 5.1.1+git20141203.0020+15.04
- _ZNK14NetworkManager11WimaxDevice4cinrEv@Base 5.1.1+git20141203.0020+15.04
- _ZNK14NetworkManager11WimaxDevice4nspsEv@Base 5.1.1+git20141203.0020+15.04
- _ZNK14NetworkManager11WimaxDevice4rssiEv@Base 5.1.1+git20141203.0020+15.04
- _ZNK14NetworkManager11WimaxDevice4typeEv@Base 5.1.1+git20141203.0020+15.04
- _ZNK14NetworkManager11WimaxDevice7findNspERK7QString@Base 5.1.1+git20141203.0020+15.04
- _ZNK14NetworkManager11WimaxDevice7txPowerEv@Base 5.1.1+git20141203.0020+15.04
- _ZNK14NetworkManager11WimaxDevice9activeNspEv@Base 5.1.1+git20141203.0020+15.04
+ (arch=!amd64)_ZNK14NetworkManager11WimaxDevice10metaObjectEv@Base 5.21.0
+ (arch=!amd64)_ZNK14NetworkManager11WimaxDevice15centerFrequencyEv@Base 5.21.0
+ (arch=!amd64)_ZNK14NetworkManager11WimaxDevice15hardwareAddressEv@Base 5.21.0
+ (arch=!amd64)_ZNK14NetworkManager11WimaxDevice4bsidEv@Base 5.21.0
+ (arch=!amd64)_ZNK14NetworkManager11WimaxDevice4cinrEv@Base 5.21.0
+ (arch=!amd64)_ZNK14NetworkManager11WimaxDevice4nspsEv@Base 5.21.0
+ (arch=!amd64)_ZNK14NetworkManager11WimaxDevice4rssiEv@Base 5.21.0
+ (arch=!amd64)_ZNK14NetworkManager11WimaxDevice4typeEv@Base 5.21.0
+ (arch=!amd64)_ZNK14NetworkManager11WimaxDevice7findNspERK7QString@Base 5.21.0
+ (arch=!amd64)_ZNK14NetworkManager11WimaxDevice7txPowerEv@Base 5.21.0
+ (arch=!amd64)_ZNK14NetworkManager11WimaxDevice9activeNspEv@Base 5.21.0
  _ZNK14NetworkManager11WiredDevice10metaObjectEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager11WiredDevice15hardwareAddressEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager11WiredDevice24permanentHardwareAddressEv@Base 5.1.1+git20141203.0020+15.04
@@ -1402,6 +1403,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZNK14NetworkManager6Device15firmwareMissingEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager6Device15firmwareVersionEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager6Device15ipInterfaceNameEv@Base 5.1.1+git20141203.0020+15.04
+ (arch=amd64)_ZNK14NetworkManager6Device15nmPluginMissingEv@Base 5.21.0
  _ZNK14NetworkManager6Device16activeConnectionEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager6Device3mtuEv@Base 5.6.0
  _ZNK14NetworkManager6Device3udiEv@Base 5.1.1+git20141203.0020+15.04
@@ -1424,6 +1426,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZNK14NetworkManager7Setting4typeEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager7Setting5toMapEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager7Setting6isNullEv@Base 5.1.1+git20141203.0020+15.04
+ (arch=amd64)_ZNK14NetworkManager8IpConfig10dnsOptionsEv@Base 5.21.0
  _ZNK14NetworkManager8IpConfig11nameserversEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager8IpConfig6routesEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager8IpConfig7domainsEv@Base 5.1.1+git20141203.0020+15.04
@@ -1432,11 +1435,11 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZNK14NetworkManager8IpConfig8searchesEv@Base 5.6.0
  _ZNK14NetworkManager8IpConfig9addressesEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager8Notifier10metaObjectEv@Base 5.1.1+git20141203.0020+15.04
- _ZNK14NetworkManager8WimaxNsp10metaObjectEv@Base 5.1.1+git20141203.0020+15.04
- _ZNK14NetworkManager8WimaxNsp11networkTypeEv@Base 5.1.1+git20141203.0020+15.04
- _ZNK14NetworkManager8WimaxNsp13signalQualityEv@Base 5.1.1+git20141203.0020+15.04
- _ZNK14NetworkManager8WimaxNsp3uniEv@Base 5.1.1+git20141203.0020+15.04
- _ZNK14NetworkManager8WimaxNsp4nameEv@Base 5.1.1+git20141203.0020+15.04
+ (arch=!amd64)_ZNK14NetworkManager8WimaxNsp10metaObjectEv@Base 5.21.0
+ (arch=!amd64)_ZNK14NetworkManager8WimaxNsp11networkTypeEv@Base 5.21.0
+ (arch=!amd64)_ZNK14NetworkManager8WimaxNsp13signalQualityEv@Base 5.21.0
+ (arch=!amd64)_ZNK14NetworkManager8WimaxNsp3uniEv@Base 5.21.0
+ (arch=!amd64)_ZNK14NetworkManager8WimaxNsp4nameEv@Base 5.21.0
  _ZNK14NetworkManager9GreDevice10inputFlagsEv@Base 5.6.0
  _ZNK14NetworkManager9GreDevice10metaObjectEv@Base 5.6.0
  _ZNK14NetworkManager9GreDevice11outputFlagsEv@Base 5.6.0
@@ -1483,7 +1486,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZTIN14NetworkManager11SecretAgentE@Base 5.1.1+git20141203.0020+15.04
  _ZTIN14NetworkManager11TeamSettingE@Base 5.6.0
  _ZTIN14NetworkManager11VlanSettingE@Base 5.1.1+git20141203.0020+15.04
- _ZTIN14NetworkManager11WimaxDeviceE@Base 5.1.1+git20141203.0020+15.04
+ (arch=!amd64)_ZTIN14NetworkManager11WimaxDeviceE@Base 5.21.0
  _ZTIN14NetworkManager11WiredDeviceE@Base 5.1.1+git20141203.0020+15.04
  _ZTIN14NetworkManager12BridgeDeviceE@Base 5.1.1+git20141203.0020+15.04
  _ZTIN14NetworkManager12PppoeSettingE@Base 5.1.1+git20141203.0020+15.04
@@ -1513,7 +1516,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZTIN14NetworkManager6DeviceE@Base 5.1.1+git20141203.0020+15.04
  _ZTIN14NetworkManager7SettingE@Base 5.1.1+git20141203.0020+15.04
  _ZTIN14NetworkManager8NotifierE@Base 5.1.1+git20141203.0020+15.04
- _ZTIN14NetworkManager8WimaxNspE@Base 5.1.1+git20141203.0020+15.04
+ (arch=!amd64)_ZTIN14NetworkManager8WimaxNspE@Base 5.21.0
  _ZTIN14NetworkManager9GreDeviceE@Base 5.6.0
  _ZTIN14NetworkManager9TunDeviceE@Base 5.6.0
  _ZTIN14NetworkManager9VpnPluginE@Base 5.1.1+git20141203.0020+15.04
@@ -1540,7 +1543,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZTSN14NetworkManager11SecretAgentE@Base 5.1.1+git20141203.0020+15.04
  _ZTSN14NetworkManager11TeamSettingE@Base 5.6.0
  _ZTSN14NetworkManager11VlanSettingE@Base 5.1.1+git20141203.0020+15.04
- _ZTSN14NetworkManager11WimaxDeviceE@Base 5.1.1+git20141203.0020+15.04
+ (arch=!amd64)_ZTSN14NetworkManager11WimaxDeviceE@Base 5.21.0
  _ZTSN14NetworkManager11WiredDeviceE@Base 5.1.1+git20141203.0020+15.04
  _ZTSN14NetworkManager12BridgeDeviceE@Base 5.1.1+git20141203.0020+15.04
  _ZTSN14NetworkManager12PppoeSettingE@Base 5.1.1+git20141203.0020+15.04
@@ -1570,7 +1573,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZTSN14NetworkManager6DeviceE@Base 5.1.1+git20141203.0020+15.04
  _ZTSN14NetworkManager7SettingE@Base 5.1.1+git20141203.0020+15.04
  _ZTSN14NetworkManager8NotifierE@Base 5.1.1+git20141203.0020+15.04
- _ZTSN14NetworkManager8WimaxNspE@Base 5.1.1+git20141203.0020+15.04
+ (arch=!amd64)_ZTSN14NetworkManager8WimaxNspE@Base 5.21.0
  _ZTSN14NetworkManager9GreDeviceE@Base 5.6.0
  _ZTSN14NetworkManager9TunDeviceE@Base 5.6.0
  _ZTSN14NetworkManager9VpnPluginE@Base 5.1.1+git20141203.0020+15.04
@@ -1596,7 +1599,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZTVN14NetworkManager11SecretAgentE@Base 5.1.1+git20141203.0020+15.04
  _ZTVN14NetworkManager11TeamSettingE@Base 5.6.0
  _ZTVN14NetworkManager11VlanSettingE@Base 5.1.1+git20141203.0020+15.04
- _ZTVN14NetworkManager11WimaxDeviceE@Base 5.1.1+git20141203.0020+15.04
+ (arch=!amd64)_ZTVN14NetworkManager11WimaxDeviceE@Base 5.21.0
  _ZTVN14NetworkManager11WiredDeviceE@Base 5.1.1+git20141203.0020+15.04
  _ZTVN14NetworkManager12BridgeDeviceE@Base 5.1.1+git20141203.0020+15.04
  _ZTVN14NetworkManager12PppoeSettingE@Base 5.1.1+git20141203.0020+15.04
@@ -1626,7 +1629,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZTVN14NetworkManager6DeviceE@Base 5.1.1+git20141203.0020+15.04
  _ZTVN14NetworkManager7SettingE@Base 5.1.1+git20141203.0020+15.04
  _ZTVN14NetworkManager8NotifierE@Base 5.1.1+git20141203.0020+15.04
- _ZTVN14NetworkManager8WimaxNspE@Base 5.1.1+git20141203.0020+15.04
+ (arch=!amd64)_ZTVN14NetworkManager8WimaxNspE@Base 5.21.0
  _ZTVN14NetworkManager9GreDeviceE@Base 5.6.0
  _ZTVN14NetworkManager9TunDeviceE@Base 5.6.0
  _ZTVN14NetworkManager9VpnPluginE@Base 5.1.1+git20141203.0020+15.04
