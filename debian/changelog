@@ -2,32 +2,16 @@ networkmanager-qt (5.21.0-1~2.gbpd25e2a) UNRELEASED; urgency=medium
 
   ** SNAPSHOT build @d25e2a4defc8b2a097f4ca5213147db6e4c402c5 **
 
-  [ Maximiliano Curia ]
-  ** SNAPSHOT build @83c078b0a7380c4c56615330d4872c1d78ccecf9 **
-
-  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
-  * Add upstream metadata (DEP-12)
-  * debian/control: Update Vcs-Browser and Vcs-Git fields
-  * debian/control: Update Vcs-Browser and Vcs-Git fields
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
-
-  [ Maximiliano Curia ]
-  * uscan no longer supports more than one main upstream tarball being listed
-
-  [ Automatic packaging ]
   * Update symbols files.
 
   [ Maximiliano Curia ]
+  * uscan no longer supports more than one main upstream tarball being listed
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
 
  -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 09:28:17 +0200
 
