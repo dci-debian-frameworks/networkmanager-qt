@@ -1,6 +1,6 @@
-networkmanager-qt (5.21.0-1~4.gbpb80ec3) UNRELEASED; urgency=medium
+networkmanager-qt (5.21.0-1~5.gbpb78e96) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @b80ec32859eccc78aa5a5984304d1f12429eb03c **
+  ** SNAPSHOT build @b78e969fd8fd6b8fb5baa3a10fc207d57c2a926c **
 
   [ Automatic packaging ]
   * New upstream release (5.21.0). (Closes: #822429)
@@ -8,6 +8,7 @@ networkmanager-qt (5.21.0-1~4.gbpb80ec3) UNRELEASED; urgency=medium
   * Update symbols files.
   * Bump Standards-Version to 3.9.8
   * Update symbols files.
+  * Update symbols files
 
   [ Maximiliano Curia ]
   * uscan no longer supports more than one main upstream tarball being listed
@@ -15,7 +16,7 @@ networkmanager-qt (5.21.0-1~4.gbpb80ec3) UNRELEASED; urgency=medium
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 30 Apr 2016 15:18:11 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 30 Apr 2016 20:11:00 +0200
 
 networkmanager-qt (5.19.0-1) experimental; urgency=medium
 
