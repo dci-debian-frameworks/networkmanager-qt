@@ -1,3 +1,12 @@
+networkmanager-qt (5.22.0-1~1.gbp4ddb4a) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @4ddb4a112ddf27580fe4c5a937f24e971848ad3b **
+
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files from buildds logs (5.21.0-1).
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 18:28:44 +0200
+
 networkmanager-qt (5.21.0-1) experimental; urgency=medium
 
   [ Automatic packaging ]
