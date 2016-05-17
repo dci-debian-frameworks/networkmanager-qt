@@ -35,7 +35,7 @@ Description: Qt wrapper for NetworkManager - devel files.
 Package: libkf5networkmanagerqt6
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: libkf5networkmanagerqt5 (<< 5.1.1+git20141204)
+Breaks: libkf5networkmanagerqt5 (<< 5.1.1+git20141204), plasma-nm (<= 4:5.6~)
 Replaces: libkf5networkmanagerqt5 (<< 5.1.1+git20141204)
 Description: Qt wrapper for NetworkManager - library
  Qt wrapper for NetworkManager DBus API.
