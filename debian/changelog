@@ -1,11 +1,13 @@
-networkmanager-qt (5.22.0-1~1.gbp4ddb4a) UNRELEASED; urgency=medium
+networkmanager-qt (5.22.0-1) experimental; urgency=medium
 
-  ** SNAPSHOT build @4ddb4a112ddf27580fe4c5a937f24e971848ad3b **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Update symbols files from buildds logs (5.21.0-1).
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 18:28:44 +0200
+  [ Maximiliano Curia ]
+  * Wimax symbols change breaks plasma-nm.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 20 May 2016 09:12:17 +0200
 
 networkmanager-qt (5.21.0-1) experimental; urgency=medium
 
