@@ -1,3 +1,9 @@
+networkmanager-qt (5.22.0-2) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 31 May 2016 09:58:24 +0200
+
 networkmanager-qt (5.22.0-1) experimental; urgency=medium
 
   [ Automatic packaging ]
@@ -7,7 +13,7 @@ networkmanager-qt (5.22.0-1) experimental; urgency=medium
   [ Maximiliano Curia ]
   * Wimax symbols change breaks plasma-nm.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 20 May 2016 09:12:17 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 31 May 2016 09:57:45 +0200
 
 networkmanager-qt (5.21.0-1) experimental; urgency=medium
 
