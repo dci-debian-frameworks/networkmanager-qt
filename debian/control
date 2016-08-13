@@ -5,13 +5,13 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.24.0~),
+               extra-cmake-modules (>= 5.25.0~),
                libnm-dev (>= 0.9.10.0),
                libnm-util-dev (>= 0.9.10.0),
                network-manager-dev (>= 0.9.10.0~),
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.4.0~)
+               qtbase5-dev (>= 5.5.0~)
 Standards-Version: 3.9.8
 Homepage: https://projects.kde.org/projects/frameworks/networkmanager-qt
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/networkmanager-qt.git
@@ -22,7 +22,7 @@ Section: libdevel
 Architecture: any
 Depends: libkf5networkmanagerqt6 (= ${binary:Version}),
          libnm-dev (>= 0.9.10.0),
-         qtbase5-dev (>= 5.4.0~),
+         qtbase5-dev (>= 5.5.0~),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Qt wrapper for NetworkManager - devel files.
