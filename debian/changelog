@@ -1,10 +1,12 @@
-networkmanager-qt (5.24.0-1~1.gbpee7afb) UNRELEASED; urgency=medium
+networkmanager-qt (5.25.0-1~1.gbpf95d3b) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @ee7afb0b762e3d572e09c8687f35d5dcab406e2f **
+  ** SNAPSHOT build @f95d3bcb6b046417005c1c5ecf91e2950a98bbd0 **
 
   * Update build-deps and deps with the info from cmake
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 09 Jul 2016 12:28:23 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 13 Aug 2016 12:28:13 +0200
 
 networkmanager-qt (5.23.0-1) unstable; urgency=medium
 
