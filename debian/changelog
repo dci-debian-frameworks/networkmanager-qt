@@ -3,6 +3,9 @@ networkmanager-qt (5.26.0-1) unstable; urgency=medium
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
+  [ Maximiliano Curia ]
+  * Replace dbus-launch with dbus-run-session in tests
+
  -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Sep 2016 11:57:27 +0200
 
 networkmanager-qt (5.25.0-1) unstable; urgency=medium
