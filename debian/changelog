@@ -1,10 +1,9 @@
-networkmanager-qt (5.26.0-1~1.gbp69c167) UNRELEASED; urgency=medium
+networkmanager-qt (5.26.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @69c167def2e87fda1aa7c674637c630cc0e7b80d **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 10 Sep 2016 18:29:23 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Sep 2016 11:57:27 +0200
 
 networkmanager-qt (5.25.0-1) unstable; urgency=medium
 
