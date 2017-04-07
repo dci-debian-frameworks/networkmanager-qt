@@ -1,2 +1,3 @@
 Don-t-force-logging-with-setFilterRules.patch
 Initialise-a-member-variable.patch
+CMake-Use-SYSTEM-for-nm-glib-nm-util-includes.patch
