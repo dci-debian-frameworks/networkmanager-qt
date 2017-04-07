@@ -1,3 +1,18 @@
+networkmanager-qt (5.28.0-2~) UNRELEASED; urgency=medium
+
+  * Pick "Don't force logging with setFilterRules" (87273f5)
+    Add upstream patch as: Don-t-force-logging-with-setFilterRules.patch
+  * Pick "Initialise a member variable" (626e704)
+    Add upstream patch as: Initialise-a-member-variable.patch
+  * Pick "CMake: Use SYSTEM for nm-glib/nm-util includes" (ad5587c)
+    Add upstream patch as:
+     CMake-Use-SYSTEM-for-nm-glib-nm-util-includes.patch
+  * Pick "Manager: Fix emitting deviceAdded twice when NM restarts" (a183e1f)
+    Add upstream patch as:
+     Manager-Fix-emitting-deviceAdded-twice-when-NM-restarts.patch
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 07 Apr 2017 19:19:34 +0200
+
 networkmanager-qt (5.28.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
