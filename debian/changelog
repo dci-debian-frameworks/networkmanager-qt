@@ -1,4 +1,4 @@
-networkmanager-qt (5.28.0-2~) UNRELEASED; urgency=medium
+networkmanager-qt (5.28.0-2) unstable; urgency=medium
 
   * Pick "Don't force logging with setFilterRules" (87273f5)
     Add upstream patch as: Don-t-force-logging-with-setFilterRules.patch
@@ -11,7 +11,7 @@ networkmanager-qt (5.28.0-2~) UNRELEASED; urgency=medium
     Add upstream patch as:
      Manager-Fix-emitting-deviceAdded-twice-when-NM-restarts.patch
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 07 Apr 2017 19:19:34 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Apr 2017 10:46:12 +0200
 
 networkmanager-qt (5.28.0-1) unstable; urgency=medium
 
