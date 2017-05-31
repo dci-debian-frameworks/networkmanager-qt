@@ -1,3 +1,21 @@
+networkmanager-qt (5.34.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sun, 14 May 2017 17:41:54 +0000
+
+networkmanager-qt (5.33.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 07 Apr 2017 16:26:41 +0000
+
+networkmanager-qt (5.32.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sun, 12 Mar 2017 13:23:39 +0000
+
 networkmanager-qt (5.31.0-0neon) xenial; urgency=medium
 
   * New release
