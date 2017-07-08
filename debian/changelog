@@ -1,4 +1,4 @@
-networkmanager-qt (5.35.0-1~1) UNRELEASED; urgency=medium
+networkmanager-qt (5.36.0-1~) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.35.0).
@@ -7,6 +7,9 @@ networkmanager-qt (5.35.0-1~1) UNRELEASED; urgency=medium
   * Drop upstream patches
   * Drop obsolete libnm-util-dev build dep.
     Thanks to Michael Biebl for reporting (Closes: 862882)
+  * Let autopkgtest take care of the build required for the test
+  * watch: Use https uris
+  * New upstream release (5.36.0).
 
   [ Raymond Wooninck ]
   * Add signing key
@@ -15,7 +18,7 @@ networkmanager-qt (5.35.0-1~1) UNRELEASED; urgency=medium
   [ Harald Sitter ]
   * acc c++11. now used more liberally
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 06 Jul 2017 14:14:57 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Jul 2017 13:35:28 +0200
 
 networkmanager-qt (5.28.0-2) unstable; urgency=medium
 
