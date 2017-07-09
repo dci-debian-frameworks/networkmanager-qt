@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.24.0 amd64 armhf i386
+# SymbolsHelper-Confirmed: 5.36.0 amd64
 libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager10AdslDevice11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager10AdslDevice11qt_metacastEPKc@Base 5.1.1+git20141203.0020+15.04
@@ -38,6 +38,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager10ConnectionD0Ev@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager10ConnectionD1Ev@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager10ConnectionD2Ev@Base 5.1.1+git20141203.0020+15.04
+ _ZN14NetworkManager10GsmSetting11setDeviceIdERK7QString@Base 5.36.0
  _ZN14NetworkManager10GsmSetting11setHomeOnlyEb@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager10GsmSetting11setPasswordERK7QString@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager10GsmSetting11setPinFlagsE6QFlagsINS_7Setting14SecretFlagTypeEE@Base 5.1.1+git20141203.0020+15.04
@@ -47,9 +48,11 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager10GsmSetting14setAllowedBandEj@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager10GsmSetting14setNetworkTypeENS0_11NetworkTypeE@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager10GsmSetting16setPasswordFlagsE6QFlagsINS_7Setting14SecretFlagTypeEE@Base 5.1.1+git20141203.0020+15.04
+ _ZN14NetworkManager10GsmSetting16setSimOperatorIdERK7QString@Base 5.36.0
  _ZN14NetworkManager10GsmSetting6setApnERK7QString@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager10GsmSetting6setPinERK7QString@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager10GsmSetting7fromMapERK4QMapI7QString8QVariantE@Base 5.1.1+git20141203.0020+15.04
+ _ZN14NetworkManager10GsmSetting8setSimIdERK7QString@Base 5.36.0
  _ZN14NetworkManager10GsmSetting9setNumberERK7QString@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager10GsmSettingC1ERK14QSharedPointerIS0_E@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager10GsmSettingC1Ev@Base 5.1.1+git20141203.0020+15.04
@@ -86,6 +89,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager10PppSettingD2Ev@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager10TeamDevice11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.6.0
  _ZN14NetworkManager10TeamDevice11qt_metacastEPKc@Base 5.6.0
+ _ZN14NetworkManager10TeamDevice13configChangedERK7QString@Base 5.36.0
  _ZN14NetworkManager10TeamDevice13slavesChangedERK11QStringList@Base 5.6.0
  _ZN14NetworkManager10TeamDevice14carrierChangedEb@Base 5.6.0
  _ZN14NetworkManager10TeamDevice16hwAddressChangedERK7QString@Base 5.6.0
@@ -131,7 +135,9 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager10VlanDeviceD1Ev@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager10VlanDeviceD2Ev@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager10VpnSetting10setSecretsERK4QMapI7QStringS2_E@Base 5.1.1+git20141203.0020+15.04
+ _ZN14NetworkManager10VpnSetting10setTimeoutEj@Base 5.36.0
  _ZN14NetworkManager10VpnSetting11setUsernameERK7QString@Base 5.1.1+git20141203.0020+15.04
+ _ZN14NetworkManager10VpnSetting13setPersistentEb@Base 5.36.0
  _ZN14NetworkManager10VpnSetting14secretsFromMapERK4QMapI7QString8QVariantE@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager10VpnSetting14setServiceTypeERK7QString@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager10VpnSetting20secretsFromStringMapERK4QMapI7QStringS2_E@Base 5.1.1+git20141203.0020+15.04
@@ -325,6 +331,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager11WiredDevice14carrierChangedEb@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager11WiredDevice16staticMetaObjectE@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager11WiredDevice22hardwareAddressChangedERK7QString@Base 5.1.1+git20141203.0020+15.04
+ _ZN14NetworkManager11WiredDevice22s390SubChannelsChangedERK11QStringList@Base 5.36.0
  _ZN14NetworkManager11WiredDevice31permanentHardwareAddressChangedERK7QString@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager11WiredDeviceC1ERK7QStringP7QObject@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager11WiredDeviceC2ERK7QStringP7QObject@Base 5.1.1+git20141203.0020+15.04
@@ -367,6 +374,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager12WimaxSettingD0Ev@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager12WimaxSettingD1Ev@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager12WimaxSettingD2Ev@Base 5.1.1+git20141203.0020+15.04
+ _ZN14NetworkManager12WiredSetting12setWakeOnLanE6QFlagsINS0_13WakeOnLanFlagEE@Base 5.36.0
  _ZN14NetworkManager12WiredSetting13setDuplexTypeENS0_10DuplexTypeE@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager12WiredSetting13setMacAddressERK10QByteArray@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager12WiredSetting14setS390NetTypeENS0_11S390NettypeE@Base 5.1.1+git20141203.0020+15.04
@@ -374,7 +382,9 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager12WiredSetting16setAutoNegotiateEb@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager12WiredSetting18setS390SubchannelsERK11QStringList@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager12WiredSetting19setClonedMacAddressERK10QByteArray@Base 5.1.1+git20141203.0020+15.04
+ _ZN14NetworkManager12WiredSetting20setWakeOnLanPasswordERK7QString@Base 5.36.0
  _ZN14NetworkManager12WiredSetting22setMacAddressBlacklistERK11QStringList@Base 5.1.1+git20141203.0020+15.04
+ _ZN14NetworkManager12WiredSetting25setGenerateMacAddressMaskERK7QString@Base 5.36.0
  _ZN14NetworkManager12WiredSetting6setMtuEj@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager12WiredSetting7fromMapERK4QMapI7QString8QVariantE@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager12WiredSetting7setPortENS0_8PortTypeE@Base 5.1.1+git20141203.0020+15.04
@@ -393,8 +403,10 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager13BridgeSetting11setPriorityEj@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager13BridgeSetting12setAgingTimeEj@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager13BridgeSetting12setHelloTimeEj@Base 5.1.1+git20141203.0020+15.04
+ _ZN14NetworkManager13BridgeSetting13setMacAddressERK10QByteArray@Base 5.36.0
  _ZN14NetworkManager13BridgeSetting15setForwardDelayEj@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager13BridgeSetting16setInterfaceNameERK7QString@Base 5.1.1+git20141203.0020+15.04
+ _ZN14NetworkManager13BridgeSetting20setMulticastSnoopingEb@Base 5.36.0
  _ZN14NetworkManager13BridgeSetting6setStpEb@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager13BridgeSetting7fromMapERK4QMapI7QString8QVariantE@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager13BridgeSetting9setMaxAgeEj@Base 5.1.1+git20141203.0020+15.04
@@ -462,6 +474,25 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager14GenericSettingD0Ev@Base 5.6.0+git20150202.1426+15.04
  _ZN14NetworkManager14GenericSettingD1Ev@Base 5.6.0+git20150202.1426+15.04
  _ZN14NetworkManager14GenericSettingD2Ev@Base 5.6.0+git20150202.1426+15.04
+ _ZN14NetworkManager14IpTunnelDevice10tosChangedEh@Base 5.36.0
+ _ZN14NetworkManager14IpTunnelDevice10ttlChangedEh@Base 5.36.0
+ _ZN14NetworkManager14IpTunnelDevice11modeChangedEj@Base 5.36.0
+ _ZN14NetworkManager14IpTunnelDevice11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.36.0
+ _ZN14NetworkManager14IpTunnelDevice11qt_metacastEPKc@Base 5.36.0
+ _ZN14NetworkManager14IpTunnelDevice12localChangedERK7QString@Base 5.36.0
+ _ZN14NetworkManager14IpTunnelDevice13parentChangedERK7QString@Base 5.36.0
+ _ZN14NetworkManager14IpTunnelDevice13remoteChangedERK7QString@Base 5.36.0
+ _ZN14NetworkManager14IpTunnelDevice15inputKeyChangedERK7QString@Base 5.36.0
+ _ZN14NetworkManager14IpTunnelDevice16flowLabelChangedEj@Base 5.36.0
+ _ZN14NetworkManager14IpTunnelDevice16outputKeyChangedERK7QString@Base 5.36.0
+ _ZN14NetworkManager14IpTunnelDevice16staticMetaObjectE@Base 5.36.0
+ _ZN14NetworkManager14IpTunnelDevice23pathMtuDiscoveryChangedEb@Base 5.36.0
+ _ZN14NetworkManager14IpTunnelDevice25encapsulationLimitChangedEh@Base 5.36.0
+ _ZN14NetworkManager14IpTunnelDeviceC1ERK7QStringP7QObject@Base 5.36.0
+ _ZN14NetworkManager14IpTunnelDeviceC2ERK7QStringP7QObject@Base 5.36.0
+ _ZN14NetworkManager14IpTunnelDeviceD0Ev@Base 5.36.0
+ _ZN14NetworkManager14IpTunnelDeviceD1Ev@Base 5.36.0
+ _ZN14NetworkManager14IpTunnelDeviceD2Ev@Base 5.36.0
  _ZN14NetworkManager14OlpcMeshDevice11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager14OlpcMeshDevice11qt_metacastEPKc@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager14OlpcMeshDevice16companionChangedERK14QSharedPointerINS_6DeviceEE@Base 5.1.1+git20141203.0020+15.04
@@ -535,10 +566,13 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager15WirelessSetting10setChannelEj@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager15WirelessSetting10setTxPowerEj@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager15WirelessSetting11setSecurityERK7QString@Base 5.1.1+git20141203.0020+15.04
+ _ZN14NetworkManager15WirelessSetting12setPowerSaveENS0_9PowerSaveE@Base 5.36.0
  _ZN14NetworkManager15WirelessSetting13setMacAddressERK10QByteArray@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager15WirelessSetting13setSeenBssidsERK11QStringList@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager15WirelessSetting19setClonedMacAddressERK10QByteArray@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager15WirelessSetting22setMacAddressBlacklistERK11QStringList@Base 5.1.1+git20141203.0020+15.04
+ _ZN14NetworkManager15WirelessSetting25setGenerateMacAddressMaskERK7QString@Base 5.36.0
+ _ZN14NetworkManager15WirelessSetting26setMacAddressRandomizationENS_7Setting23MacAddressRandomizationE@Base 5.36.0
  _ZN14NetworkManager15WirelessSetting6setMtuEj@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager15WirelessSetting7fromMapERK4QMapI7QString8QVariantE@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager15WirelessSetting7setBandENS0_13FrequencyBandE@Base 5.1.1+git20141203.0020+15.04
@@ -593,6 +627,18 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager16BluetoothSettingD0Ev@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager16BluetoothSettingD1Ev@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager16BluetoothSettingD2Ev@Base 5.1.1+git20141203.0020+15.04
+ _ZN14NetworkManager16DeviceStatistics11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.36.0
+ _ZN14NetworkManager16DeviceStatistics11qt_metacastEPKc@Base 5.36.0
+ _ZN14NetworkManager16DeviceStatistics14rxBytesChangedEy@Base 5.36.0
+ _ZN14NetworkManager16DeviceStatistics14txBytesChangedEy@Base 5.36.0
+ _ZN14NetworkManager16DeviceStatistics16setRefreshRateMsEj@Base 5.36.0
+ _ZN14NetworkManager16DeviceStatistics16staticMetaObjectE@Base 5.36.0
+ _ZN14NetworkManager16DeviceStatistics20refreshRateMsChangedEj@Base 5.36.0
+ _ZN14NetworkManager16DeviceStatisticsC1ERK7QStringP7QObject@Base 5.36.0
+ _ZN14NetworkManager16DeviceStatisticsC2ERK7QStringP7QObject@Base 5.36.0
+ _ZN14NetworkManager16DeviceStatisticsD0Ev@Base 5.36.0
+ _ZN14NetworkManager16DeviceStatisticsD1Ev@Base 5.36.0
+ _ZN14NetworkManager16DeviceStatisticsD2Ev@Base 5.36.0
  _ZN14NetworkManager16InfinibandDevice11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager16InfinibandDevice11qt_metacastEPKc@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager16InfinibandDevice14carrierChangedEb@Base 5.1.1+git20141203.0020+15.04
@@ -651,7 +697,9 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager17networkInterfacesEv@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager17primaryConnectionEv@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager17reloadConnectionsEv@Base 5.6.0
+ _ZN14NetworkManager18ConnectionSettings10setMeteredENS0_7MeteredE@Base 5.36.0
  _ZN14NetworkManager18ConnectionSettings11setReadOnlyEb@Base 5.1.1+git20141203.0020+15.04
+ _ZN14NetworkManager18ConnectionSettings11setStableIdERK7QString@Base 5.36.0
  _ZN14NetworkManager18ConnectionSettings12setSlaveTypeERK7QString@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager18ConnectionSettings12setTimestampERK9QDateTime@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager18ConnectionSettings12typeAsStringENS0_14ConnectionTypeE@Base 5.1.1+git20141203.0020+15.04
@@ -663,10 +711,13 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager18ConnectionSettings16addToPermissionsERK7QStringS3_@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager18ConnectionSettings16setInterfaceNameERK7QString@Base 5.6.0
  _ZN14NetworkManager18ConnectionSettings17setConnectionTypeENS0_14ConnectionTypeE23NMBluetoothCapabilities@Base 5.1.1+git20141203.0020+15.04
+ _ZN14NetworkManager18ConnectionSettings20setAutoconnectSlavesENS0_17AutoconnectSlavesE@Base 5.36.0
+ _ZN14NetworkManager18ConnectionSettings21setAutoconnectRetriesEi@Base 5.36.0
  _ZN14NetworkManager18ConnectionSettings21setGatewayPingTimeoutEj@Base 5.6.0
  _ZN14NetworkManager18ConnectionSettings22setAutoconnectPriorityEi@Base 5.10.0
  _ZN14NetworkManager18ConnectionSettings5setIdERK7QString@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager18ConnectionSettings7fromMapERK4QMapI7QStringS1_IS2_8QVariantEE@Base 5.1.1+git20141203.0020+15.04
+ _ZN14NetworkManager18ConnectionSettings7setLldpENS0_4LldpE@Base 5.36.0
  _ZN14NetworkManager18ConnectionSettings7setUuidERK7QString@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager18ConnectionSettings7setZoneERK7QString@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager18ConnectionSettings9setMasterERK7QString@Base 5.1.1+git20141203.0020+15.04
@@ -920,6 +971,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager9TunDevice12groupChangedEx@Base 5.6.0
  _ZN14NetworkManager9TunDevice12ownerChangedEx@Base 5.6.0
  _ZN14NetworkManager9TunDevice14vnetHdrChangedEb@Base 5.6.0
+ _ZN14NetworkManager9TunDevice16hwAddressChangedERK7QString@Base 5.36.0
  _ZN14NetworkManager9TunDevice16staticMetaObjectE@Base 5.6.0
  _ZN14NetworkManager9TunDevice17multiQueueChangedEb@Base 5.6.0
  _ZN14NetworkManager9TunDeviceC1ERK7QStringP7QObject@Base 5.6.0
@@ -997,11 +1049,14 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZNK14NetworkManager10GsmSetting11networkTypeEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager10GsmSetting12secretsToMapEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager10GsmSetting13passwordFlagsEv@Base 5.1.1+git20141203.0020+15.04
+ _ZNK14NetworkManager10GsmSetting13simOperatorIdEv@Base 5.36.0
  _ZNK14NetworkManager10GsmSetting3apnEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager10GsmSetting3pinEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager10GsmSetting4nameEv@Base 5.1.1+git20141203.0020+15.04
+ _ZNK14NetworkManager10GsmSetting5simIdEv@Base 5.36.0
  _ZNK14NetworkManager10GsmSetting5toMapEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager10GsmSetting6numberEv@Base 5.1.1+git20141203.0020+15.04
+ _ZNK14NetworkManager10GsmSetting8deviceIdEv@Base 5.36.0
  _ZNK14NetworkManager10GsmSetting8homeOnlyEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager10GsmSetting8passwordEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager10GsmSetting8pinFlagsEv@Base 5.1.1+git20141203.0020+15.04
@@ -1029,6 +1084,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZNK14NetworkManager10PppSetting9refusePapEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager10TeamDevice10metaObjectEv@Base 5.6.0
  _ZNK14NetworkManager10TeamDevice4typeEv@Base 5.6.0
+ _ZNK14NetworkManager10TeamDevice6configEv@Base 5.36.0
  _ZNK14NetworkManager10TeamDevice6slavesEv@Base 5.6.0
  _ZNK14NetworkManager10TeamDevice7carrierEv@Base 5.6.0
  _ZNK14NetworkManager10TeamDevice9hwAddressEv@Base 5.6.0
@@ -1049,6 +1105,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZNK14NetworkManager10VlanDevice6vlanIdEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager10VlanDevice7carrierEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager10VlanDevice9hwAddressEv@Base 5.1.1+git20141203.0020+15.04
+ _ZNK14NetworkManager10VpnSetting10persistentEv@Base 5.36.0
  _ZNK14NetworkManager10VpnSetting11serviceTypeEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager10VpnSetting12secretsToMapEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager10VpnSetting18secretsToStringMapEv@Base 5.1.1+git20141203.0020+15.04
@@ -1056,6 +1113,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZNK14NetworkManager10VpnSetting4nameEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager10VpnSetting5toMapEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager10VpnSetting7secretsEv@Base 5.1.1+git20141203.0020+15.04
+ _ZNK14NetworkManager10VpnSetting7timeoutEv@Base 5.36.0
  _ZNK14NetworkManager10VpnSetting8usernameEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager11AccessPoint10maxBitRateEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager11AccessPoint10metaObjectEv@Base 5.1.1+git20141203.0020+15.04
@@ -1157,6 +1215,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZNK14NetworkManager11WimaxDevice9activeNspEv@Base 5.23.0
  _ZNK14NetworkManager11WiredDevice10metaObjectEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager11WiredDevice15hardwareAddressEv@Base 5.1.1+git20141203.0020+15.04
+ _ZNK14NetworkManager11WiredDevice15s390SubChannelsEv@Base 5.36.0
  _ZNK14NetworkManager11WiredDevice24permanentHardwareAddressEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager11WiredDevice4typeEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager11WiredDevice7bitRateEv@Base 5.1.1+git20141203.0020+15.04
@@ -1185,14 +1244,19 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZNK14NetworkManager12WiredSetting13autoNegotiateEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager12WiredSetting15s390SubchannelsEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager12WiredSetting16clonedMacAddressEv@Base 5.1.1+git20141203.0020+15.04
+ _ZNK14NetworkManager12WiredSetting17wakeOnLanPasswordEv@Base 5.36.0
  _ZNK14NetworkManager12WiredSetting19macAddressBlacklistEv@Base 5.1.1+git20141203.0020+15.04
+ _ZNK14NetworkManager12WiredSetting22generateMacAddressMaskEv@Base 5.36.0
  _ZNK14NetworkManager12WiredSetting3mtuEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager12WiredSetting4nameEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager12WiredSetting4portEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager12WiredSetting5speedEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager12WiredSetting5toMapEv@Base 5.1.1+git20141203.0020+15.04
+ _ZNK14NetworkManager12WiredSetting9wakeOnLanEv@Base 5.36.0
+ _ZNK14NetworkManager13BridgeSetting10macAddressEv@Base 5.36.0
  _ZNK14NetworkManager13BridgeSetting12forwardDelayEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager13BridgeSetting13interfaceNameEv@Base 5.1.1+git20141203.0020+15.04
+ _ZNK14NetworkManager13BridgeSetting17multicastSnoopingEv@Base 5.36.0
  _ZNK14NetworkManager13BridgeSetting3stpEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager13BridgeSetting4nameEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager13BridgeSetting5toMapEv@Base 5.1.1+git20141203.0020+15.04
@@ -1221,6 +1285,19 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZNK14NetworkManager13VpnConnection6bannerEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager14GenericSetting4nameEv@Base 5.6.0+git20150202.1426+15.04
  _ZNK14NetworkManager14GenericSetting5toMapEv@Base 5.6.0+git20150202.1426+15.04
+ _ZNK14NetworkManager14IpTunnelDevice10metaObjectEv@Base 5.36.0
+ _ZNK14NetworkManager14IpTunnelDevice16pathMtuDiscoveryEv@Base 5.36.0
+ _ZNK14NetworkManager14IpTunnelDevice18encapsulationLimitEv@Base 5.36.0
+ _ZNK14NetworkManager14IpTunnelDevice3tosEv@Base 5.36.0
+ _ZNK14NetworkManager14IpTunnelDevice3ttlEv@Base 5.36.0
+ _ZNK14NetworkManager14IpTunnelDevice4modeEv@Base 5.36.0
+ _ZNK14NetworkManager14IpTunnelDevice4typeEv@Base 5.36.0
+ _ZNK14NetworkManager14IpTunnelDevice5localEv@Base 5.36.0
+ _ZNK14NetworkManager14IpTunnelDevice6parentEv@Base 5.36.0
+ _ZNK14NetworkManager14IpTunnelDevice6remoteEv@Base 5.36.0
+ _ZNK14NetworkManager14IpTunnelDevice8inputKeyEv@Base 5.36.0
+ _ZNK14NetworkManager14IpTunnelDevice9flowLabelEv@Base 5.36.0
+ _ZNK14NetworkManager14IpTunnelDevice9outputKeyEv@Base 5.36.0
  _ZNK14NetworkManager14OlpcMeshDevice10metaObjectEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager14OlpcMeshDevice13activeChannelEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager14OlpcMeshDevice15companionDeviceEv@Base 5.1.1+git20141203.0020+15.04
@@ -1257,6 +1334,8 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZNK14NetworkManager15WirelessSetting10seenBssidsEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager15WirelessSetting16clonedMacAddressEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager15WirelessSetting19macAddressBlacklistEv@Base 5.1.1+git20141203.0020+15.04
+ _ZNK14NetworkManager15WirelessSetting22generateMacAddressMaskEv@Base 5.36.0
+ _ZNK14NetworkManager15WirelessSetting23macAddressRandomizationEv@Base 5.36.0
  _ZNK14NetworkManager15WirelessSetting3mtuEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager15WirelessSetting4bandEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager15WirelessSetting4modeEv@Base 5.1.1+git20141203.0020+15.04
@@ -1269,6 +1348,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZNK14NetworkManager15WirelessSetting7channelEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager15WirelessSetting7txPowerEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager15WirelessSetting8securityEv@Base 5.1.1+git20141203.0020+15.04
+ _ZNK14NetworkManager15WirelessSetting9powerSaveEv@Base 5.36.0
  _ZNK14NetworkManager16ActiveConnection10connectionEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager16ActiveConnection10ipV4ConfigEv@Base 5.6.0
  _ZNK14NetworkManager16ActiveConnection10ipV6ConfigEv@Base 5.6.0
@@ -1291,6 +1371,10 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZNK14NetworkManager16BluetoothSetting16bluetoothAddressEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager16BluetoothSetting4nameEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager16BluetoothSetting5toMapEv@Base 5.1.1+git20141203.0020+15.04
+ _ZNK14NetworkManager16DeviceStatistics10metaObjectEv@Base 5.36.0
+ _ZNK14NetworkManager16DeviceStatistics13refreshRateMsEv@Base 5.36.0
+ _ZNK14NetworkManager16DeviceStatistics7rxBytesEv@Base 5.36.0
+ _ZNK14NetworkManager16DeviceStatistics7txBytesEv@Base 5.36.0
  _ZNK14NetworkManager16InfinibandDevice10metaObjectEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager16InfinibandDevice4typeEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager16InfinibandDevice7carrierEv@Base 5.1.1+git20141203.0020+15.04
@@ -1315,19 +1399,24 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZNK14NetworkManager18ConnectionSettings11secondariesEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager18ConnectionSettings13interfaceNameEv@Base 5.6.0
  _ZNK14NetworkManager18ConnectionSettings14connectionTypeEv@Base 5.1.1+git20141203.0020+15.04
+ _ZNK14NetworkManager18ConnectionSettings17autoconnectSlavesEv@Base 5.36.0
+ _ZNK14NetworkManager18ConnectionSettings18autoconnectRetriesEv@Base 5.36.0
  _ZNK14NetworkManager18ConnectionSettings18gatewayPingTimeoutEv@Base 5.6.0
  _ZNK14NetworkManager18ConnectionSettings19autoconnectPriorityEv@Base 5.10.0
  _ZNK14NetworkManager18ConnectionSettings2idEv@Base 5.1.1+git20141203.0020+15.04
+ _ZNK14NetworkManager18ConnectionSettings4lldpEv@Base 5.36.0
  _ZNK14NetworkManager18ConnectionSettings4nameEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager18ConnectionSettings4uuidEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager18ConnectionSettings4zoneEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager18ConnectionSettings5toMapEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager18ConnectionSettings6masterEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager18ConnectionSettings7isSlaveEv@Base 5.1.1+git20141203.0020+15.04
+ _ZNK14NetworkManager18ConnectionSettings7meteredEv@Base 5.36.0
  _ZNK14NetworkManager18ConnectionSettings7settingENS_7Setting11SettingTypeE@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager18ConnectionSettings7settingERK7QString@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager18ConnectionSettings8readOnlyEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager18ConnectionSettings8settingsEv@Base 5.1.1+git20141203.0020+15.04
+ _ZNK14NetworkManager18ConnectionSettings8stableIdEv@Base 5.36.0
  _ZNK14NetworkManager18ConnectionSettings9slaveTypeEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager18ConnectionSettings9timestampEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager20Security8021xSetting10eapMethodsEv@Base 5.1.1+git20141203.0020+15.04
@@ -1406,6 +1495,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZNK14NetworkManager6Device15ipInterfaceNameEv@Base 5.1.1+git20141203.0020+15.04
  (optional=nmfun)_ZNK14NetworkManager6Device15nmPluginMissingEv@Base 5.21.0
  _ZNK14NetworkManager6Device16activeConnectionEv@Base 5.1.1+git20141203.0020+15.04
+ _ZNK14NetworkManager6Device16deviceStatisticsEv@Base 5.36.0
  _ZNK14NetworkManager6Device3mtuEv@Base 5.6.0
  _ZNK14NetworkManager6Device3udiEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager6Device3uniEv@Base 5.1.1+git20141203.0020+15.04
@@ -1463,6 +1553,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZNK14NetworkManager9TunDevice5groupEv@Base 5.6.0
  _ZNK14NetworkManager9TunDevice5ownerEv@Base 5.6.0
  _ZNK14NetworkManager9TunDevice7vnetHdrEv@Base 5.6.0
+ _ZNK14NetworkManager9TunDevice9hwAddressEv@Base 5.36.0
  _ZNK14NetworkManager9VpnPlugin10metaObjectEv@Base 5.1.1+git20141203.0020+15.04
  _ZTI12QDBusContext@Base 5.1.1+git20141203.0020+15.04
  _ZTIN14NetworkManager10AdslDeviceE@Base 5.1.1+git20141203.0020+15.04
@@ -1499,6 +1590,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZTIN14NetworkManager13SerialSettingE@Base 5.1.1+git20141203.0020+15.04
  _ZTIN14NetworkManager13VpnConnectionE@Base 5.1.1+git20141203.0020+15.04
  _ZTIN14NetworkManager14GenericSettingE@Base 5.6.0+git20150202.1426+15.04
+ _ZTIN14NetworkManager14IpTunnelDeviceE@Base 5.36.0
  _ZTIN14NetworkManager14OlpcMeshDeviceE@Base 5.1.1+git20141203.0020+15.04
  _ZTIN14NetworkManager14WirelessDeviceE@Base 5.1.1+git20141203.0020+15.04
  _ZTIN14NetworkManager15BluetoothDeviceE@Base 5.1.1+git20141203.0020+15.04
@@ -1507,6 +1599,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZTIN14NetworkManager15WirelessSettingE@Base 5.1.1+git20141203.0020+15.04
  _ZTIN14NetworkManager16ActiveConnectionE@Base 5.1.1+git20141203.0020+15.04
  _ZTIN14NetworkManager16BluetoothSettingE@Base 5.1.1+git20141203.0020+15.04
+ _ZTIN14NetworkManager16DeviceStatisticsE@Base 5.36.0
  _ZTIN14NetworkManager16InfinibandDeviceE@Base 5.1.1+git20141203.0020+15.04
  _ZTIN14NetworkManager16SettingsNotifierE@Base 5.1.1+git20141203.0020+15.04
  _ZTIN14NetworkManager17BridgePortSettingE@Base 5.1.1+git20141203.0020+15.04
@@ -1556,6 +1649,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZTSN14NetworkManager13SerialSettingE@Base 5.1.1+git20141203.0020+15.04
  _ZTSN14NetworkManager13VpnConnectionE@Base 5.1.1+git20141203.0020+15.04
  _ZTSN14NetworkManager14GenericSettingE@Base 5.6.0+git20150202.1426+15.04
+ _ZTSN14NetworkManager14IpTunnelDeviceE@Base 5.36.0
  _ZTSN14NetworkManager14OlpcMeshDeviceE@Base 5.1.1+git20141203.0020+15.04
  _ZTSN14NetworkManager14WirelessDeviceE@Base 5.1.1+git20141203.0020+15.04
  _ZTSN14NetworkManager15BluetoothDeviceE@Base 5.1.1+git20141203.0020+15.04
@@ -1564,6 +1658,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZTSN14NetworkManager15WirelessSettingE@Base 5.1.1+git20141203.0020+15.04
  _ZTSN14NetworkManager16ActiveConnectionE@Base 5.1.1+git20141203.0020+15.04
  _ZTSN14NetworkManager16BluetoothSettingE@Base 5.1.1+git20141203.0020+15.04
+ _ZTSN14NetworkManager16DeviceStatisticsE@Base 5.36.0
  _ZTSN14NetworkManager16InfinibandDeviceE@Base 5.1.1+git20141203.0020+15.04
  _ZTSN14NetworkManager16SettingsNotifierE@Base 5.1.1+git20141203.0020+15.04
  _ZTSN14NetworkManager17BridgePortSettingE@Base 5.1.1+git20141203.0020+15.04
@@ -1612,6 +1707,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZTVN14NetworkManager13SerialSettingE@Base 5.1.1+git20141203.0020+15.04
  _ZTVN14NetworkManager13VpnConnectionE@Base 5.1.1+git20141203.0020+15.04
  _ZTVN14NetworkManager14GenericSettingE@Base 5.6.0+git20150202.1426+15.04
+ _ZTVN14NetworkManager14IpTunnelDeviceE@Base 5.36.0
  _ZTVN14NetworkManager14OlpcMeshDeviceE@Base 5.1.1+git20141203.0020+15.04
  _ZTVN14NetworkManager14WirelessDeviceE@Base 5.1.1+git20141203.0020+15.04
  _ZTVN14NetworkManager15BluetoothDeviceE@Base 5.1.1+git20141203.0020+15.04
@@ -1620,6 +1716,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZTVN14NetworkManager15WirelessSettingE@Base 5.1.1+git20141203.0020+15.04
  _ZTVN14NetworkManager16ActiveConnectionE@Base 5.1.1+git20141203.0020+15.04
  _ZTVN14NetworkManager16BluetoothSettingE@Base 5.1.1+git20141203.0020+15.04
+ _ZTVN14NetworkManager16DeviceStatisticsE@Base 5.36.0
  _ZTVN14NetworkManager16InfinibandDeviceE@Base 5.1.1+git20141203.0020+15.04
  _ZTVN14NetworkManager16SettingsNotifierE@Base 5.1.1+git20141203.0020+15.04
  _ZTVN14NetworkManager17BridgePortSettingE@Base 5.1.1+git20141203.0020+15.04
