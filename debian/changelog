@@ -1,3 +1,15 @@
+networkmanager-qt (5.36.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 10 Jul 2017 17:16:05 +0000
+
+networkmanager-qt (5.35.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sun, 11 Jun 2017 20:38:15 +0000
+
 networkmanager-qt (5.34.0-0neon) xenial; urgency=medium
 
   * New release
@@ -33,6 +45,21 @@ networkmanager-qt (5.29.0-0neon) xenial; urgency=medium
   * New release
 
  -- Neon CI <neon@kde.org>  Fri, 09 Dec 2016 19:10:11 +0000
+
+networkmanager-qt (5.28.0-2) unstable; urgency=medium
+
+  * Pick "Don't force logging with setFilterRules" (87273f5)
+    Add upstream patch as: Don-t-force-logging-with-setFilterRules.patch
+  * Pick "Initialise a member variable" (626e704)
+    Add upstream patch as: Initialise-a-member-variable.patch
+  * Pick "CMake: Use SYSTEM for nm-glib/nm-util includes" (ad5587c)
+    Add upstream patch as:
+     CMake-Use-SYSTEM-for-nm-glib-nm-util-includes.patch
+  * Pick "Manager: Fix emitting deviceAdded twice when NM restarts" (a183e1f)
+    Add upstream patch as:
+     Manager-Fix-emitting-deviceAdded-twice-when-NM-restarts.patch
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Apr 2017 10:46:12 +0200
 
 networkmanager-qt (5.28.0-1) unstable; urgency=medium
 
