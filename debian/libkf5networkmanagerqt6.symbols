@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.36.0 amd64
+# SymbolsHelper-Confirmed: 5.37.0 amd64
 libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager10AdslDevice11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager10AdslDevice11qt_metacastEPKc@Base 5.1.1+git20141203.0020+15.04
@@ -229,6 +229,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager11Ipv4Setting10setMayFailEb@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager11Ipv4Setting12setAddressesERK5QListINS_9IpAddressEE@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager11Ipv4Setting12setDnsSearchERK11QStringList@Base 5.1.1+git20141203.0020+15.04
+ _ZN14NetworkManager11Ipv4Setting14setRouteMetricEi@Base 5.37.0
  _ZN14NetworkManager11Ipv4Setting15setDhcpClientIdERK7QString@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager11Ipv4Setting15setDhcpHostnameERK7QString@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager11Ipv4Setting15setNeverDefaultEb@Base 5.1.1+git20141203.0020+15.04
@@ -250,6 +251,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager11Ipv6Setting10setPrivacyENS0_11IPv6PrivacyE@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager11Ipv6Setting12setAddressesE5QListINS_9IpAddressEE@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager11Ipv6Setting12setDnsSearchERK11QStringList@Base 5.1.1+git20141203.0020+15.04
+ _ZN14NetworkManager11Ipv6Setting14setRouteMetricEi@Base 5.37.0
  _ZN14NetworkManager11Ipv6Setting15setNeverDefaultEb@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager11Ipv6Setting16setIgnoreAutoDnsEb@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager11Ipv6Setting19setIgnoreAutoRoutesEb@Base 5.1.1+git20141203.0020+15.04
@@ -1158,6 +1160,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZNK14NetworkManager11Dhcp6Config11optionValueERK7QString@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager11Dhcp6Config4pathEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager11Dhcp6Config7optionsEv@Base 5.1.1+git20141203.0020+15.04
+ _ZNK14NetworkManager11Ipv4Setting11routeMetricEv@Base 5.37.0
  _ZNK14NetworkManager11Ipv4Setting12dhcpClientIdEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager11Ipv4Setting12dhcpHostnameEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager11Ipv4Setting12neverDefaultEv@Base 5.1.1+git20141203.0020+15.04
@@ -1172,6 +1175,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZNK14NetworkManager11Ipv4Setting7mayFailEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager11Ipv4Setting9addressesEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager11Ipv4Setting9dnsSearchEv@Base 5.1.1+git20141203.0020+15.04
+ _ZNK14NetworkManager11Ipv6Setting11routeMetricEv@Base 5.37.0
  _ZNK14NetworkManager11Ipv6Setting12neverDefaultEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager11Ipv6Setting13ignoreAutoDnsEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager11Ipv6Setting16ignoreAutoRoutesEv@Base 5.1.1+git20141203.0020+15.04
