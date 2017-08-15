@@ -46,6 +46,7 @@ Description: Qt wrapper for NetworkManager - library (documentation)
  This package is part of the KDE Plasma.
  .
  This package contains the qch documentation files.
+Section: doc
 
 Package: libkf5networkmanagerqt6
 Architecture: any
