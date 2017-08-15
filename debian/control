@@ -5,12 +5,16 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 3.0~),
                debhelper (>= 9),
+               doxygen,
                extra-cmake-modules (>= 5.37.0~),
+               graphviz,
                libnm-dev (>= 0.9.10.0),
+               libqt5sql5-sqlite,
                network-manager-dev (>= 0.9.10.0~),
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.7.0~)
+               qtbase5-dev (>= 5.7.0~),
+               qttools5-dev-tools (>= 5.4),
 Standards-Version: 4.0.0
 Homepage: https://projects.kde.org/projects/frameworks/networkmanager-qt
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/networkmanager-qt.git
@@ -23,13 +27,25 @@ Depends: libkf5networkmanagerqt6 (= ${binary:Version}),
          libnm-dev (>= 0.9.10.0),
          qtbase5-dev (>= 5.7.0~),
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
+Recommends: libkf5networkmanagerqt-doc (= ${source:Version})
 Description: Qt wrapper for NetworkManager - devel files.
  Qt wrapper for NetworkManager DBus API.
  .
  This package is part of the KDE Plasma.
  .
  This package contains the development files
+
+Package: libkf5networkmanagerqt-doc
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: Qt wrapper for NetworkManager - library (documentation)
+ Qt wrapper for NetworkManager DBus API.
+ .
+ This package is part of the KDE Plasma.
+ .
+ This package contains the qch documentation files.
 
 Package: libkf5networkmanagerqt6
 Architecture: any
