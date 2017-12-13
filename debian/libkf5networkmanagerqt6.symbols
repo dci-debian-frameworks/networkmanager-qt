@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.37.0 amd64
+# SymbolsHelper-Confirmed: 5.41.0 amd64
 libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager10AdslDevice11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager10AdslDevice11qt_metacastEPKc@Base 5.1.1+git20141203.0020+15.04
@@ -758,6 +758,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZN14NetworkManager20Security8021xSetting20setAltSubjectMatchesERK11QStringList@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager20Security8021xSetting20setAnonymousIdentityERK7QString@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager20Security8021xSetting20setClientCertificateERK10QByteArray@Base 5.1.1+git20141203.0020+15.04
+ _ZN14NetworkManager20Security8021xSetting20setDomainSuffixMatchERK7QString@Base 5.41.0
  _ZN14NetworkManager20Security8021xSetting20setPhase1PeapVersionENS0_11PeapVersionE@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager20Security8021xSetting21setPhase2SubjectMatchERK7QString@Base 5.1.1+git20141203.0020+15.04
  _ZN14NetworkManager20Security8021xSetting21setPrivateKeyPasswordERK7QString@Base 5.1.1+git20141203.0020+15.04
@@ -1439,6 +1440,7 @@ libKF5NetworkManagerQt.so.6 libkf5networkmanagerqt6 #MINVER#
  _ZNK14NetworkManager20Security8021xSetting17altSubjectMatchesEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager20Security8021xSetting17anonymousIdentityEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager20Security8021xSetting17clientCertificateEv@Base 5.1.1+git20141203.0020+15.04
+ _ZNK14NetworkManager20Security8021xSetting17domainSuffixMatchEv@Base 5.41.0
  _ZNK14NetworkManager20Security8021xSetting17phase1PeapVersionEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager20Security8021xSetting18phase2SubjectMatchEv@Base 5.1.1+git20141203.0020+15.04
  _ZNK14NetworkManager20Security8021xSetting18privateKeyPasswordEv@Base 5.1.1+git20141203.0020+15.04
